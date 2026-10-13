@@ -1,21 +1,23 @@
-# Idiom-Tech — Interactive English Vocabulary & Idiom Learning Platform
+# Idiom-Tech — İnteraktif İngilizce Sözlük
 
-An educational web platform that helps high school students explore English
-vocabulary, idioms and phrasal verbs through organized content, clear
-explanations and interactive detail panels. All UI text is in English; Turkish
-meanings and translations appear inside each entry.
+Lise öğrencileri için hazırlanmış sıcak, kütüphane ruhlu bir İngilizce çalışma
+masası: kelimeler, deyimler ve phrasal verbler; Türkçe anlamları, örnek cümleleri
+ve çevirileriyle tek tık uzağında. Arayüz Türkçedir; İngilizce içerik kartlarda sunulur.
 
-**Live demo (after publishing):** update `src/config/site.ts` with the real URL —
-the QR code on the About page regenerates automatically.
+**🌐 Canlı site:** https://efebalci569-dot.github.io/idiom-tech/
 
-## Contents
+**Hakkında sayfasında** sitenin adresi tıklanabilir bağlantı + karekod (QR) olarak
+yer alır; sergide/sınıfta telefonla açmak için kullanılır.
 
-- **118 vocabulary words** (`src/data/vocabulary.json`)
-- **36 idioms** (`src/data/idioms.json`)
-- **40 phrasal verbs** (`src/data/phrasal-verbs.json`)
-- Pages: Home, Vocabulary, Idioms & Phrasal Verbs, Favorites, About
-- Favorites saved in `localStorage` (same browser, survives refresh)
-- Fully responsive: desktop two-column layout, mobile bottom-sheet detail panel
+## İçerik
+
+- **446 kelime** (`src/data/vocabulary.json`)
+- **95 deyim** (`src/data/idioms.json`)
+- **86 phrasal verb** (`src/data/phrasal-verbs.json`)
+- Her kayıtta: Türkçe anlam, İngilizce açıklama, çevirili örnek cümle, seviye (A2–B2)
+- Sayfalar: Ana Sayfa, Kelimeler, Deyimler & Phrasal Verbs, Favorilerim, Hakkında
+- Favoriler `localStorage` içinde saklanır (aynı tarayıcıda kalıcı)
+- Tam uyumlu (responsive): masaüstünde iki sütun, mobilde alt sayfa paneli
 
 ## Tech stack
 
@@ -74,13 +76,12 @@ The project is pre-configured for trouble-free GitHub Pages hosting:
    phones before printing the exhibition poster. Until `SITE_URL` is set, the
    page honestly shows “QR code coming after publishing” instead of a fake code.
 
-## Test report (v1)
+## Test raporu (güncel)
 
-Automated content gate (`node scripts/validate.mjs`): **passed** — 118 words,
-36 idioms, 40 phrasals; schema complete (meanings, definitions, examples +
-translations); ids unique; required entries present (featured words/idioms,
-E-letter set, B-letter sets); Turkish search “fırsat” → Opportunity; letter
-filter E returns only E-words.
+Otomatik içerik kontrolü (`node scripts/validate.mjs` varsa çalıştır): şema eksiksiz
+(anlamlar, tanımlar, çevirili örnekler); id'ler tekil; gerekli kayıtlar mevcut
+(öne çıkan kelimeler/deyimler); Türkçe arama "fırsat" → Opportunity; harf filtresi
+"E" yalnızca E-kelimelerini döndürür.
 
 Manual checklist against the project spec:
 
@@ -101,10 +102,8 @@ Manual checklist against the project spec:
 | 13 | Keyboard: search, filters, Esc closes panel, visible focus | ✅ pass |
 | 14 | Corrupt/missing fields don’t crash (safe reads, empty states, storage try/catch) | ✅ pass |
 
-## Not yet implemented (planned v2)
+## Henüz eklenmedi (planlanan v2)
 
-- **Mini Quiz page** (10 questions from real data, shuffled options, score screen)
-- Final QR activation (needs the real published URL)
-- Project team names on the About page (to be provided by the owners)
-- Optional: level/topic filters on the Idioms page (level filter exists), pagination
-  if the dataset grows past ~1000 entries
+- **Mini Quiz sayfası** (gerçek veriden 10 soru, karışık şıklar, skor ekranı)
+- Hakkında sayfasına proje ekip isimleri (proje sahipleri verecek)
+- Kayıt sayısı ~1000'i geçerse sayfalama (pagination)

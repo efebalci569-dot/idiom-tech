@@ -1,5 +1,7 @@
 import { useEffect } from 'react';
+import { Link2 } from 'lucide-react';
 import QRBlock from '../components/QRBlock';
+import { SITE_URL } from '../config/site';
 
 export default function About() {
   useEffect(() => {
@@ -69,7 +71,9 @@ export default function About() {
         <section className="prose-card" aria-label="Telefonla açma">
           <h2>📱 Telefonundan Aç</h2>
           <p>
-            Sergide ya da sınıfta sunarken aşağıdaki karekodu okut, sözlük telefonunda açılsın.
+            Sitenin adresi: <a href={SITE_URL} target="_blank" rel="noreferrer"><Link2 size={15} style={{ verticalAlign: -2 }} /> {SITE_URL}</a>
+            {' '}— bağlantıya dokunarak ya da aşağıdaki karekodu okutarak sözlüğü telefonunda açabilirsin.
+            Sergide ya da sınıfta sunarken karekod çok pratik olur.
           </p>
           <div className="qr-block">
             <QRBlock />
