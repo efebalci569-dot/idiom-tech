@@ -7,7 +7,7 @@
  * Until then it intentionally stays empty so no placeholder/fake QR code
  * is generated.
  */
-export const SITE_URL: string = '';
+export const SITE_URL: string = 'https://efebalci569-dot.github.io/idiom-tech/';
 
 export const SITE_NAME = 'Idiom-Tech';
 export const QR_CAPTION = 'Scan to Explore Idiom-Tech';
