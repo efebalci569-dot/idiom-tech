@@ -24,13 +24,12 @@ type Tab = 'idioms' | 'phrasal';
 export default function Idioms() {
   const { isFavorite, toggleFavorite } = useFavoritesContext();
   const [tab, setTab] = useState<Tab>('idioms');
-  // Each tab owns its filters: switching tabs resets search & letter.
   const [idiomFilters, setIdiomFilters] = useState<ExpressionFilters>(EMPTY_EXPRESSION_FILTERS);
   const [phrasalFilters, setPhrasalFilters] = useState<ExpressionFilters>(EMPTY_EXPRESSION_FILTERS);
   const [selectedId, setSelectedId] = useState<string | null>(null);
 
   useEffect(() => {
-    document.title = 'Idioms & Phrasal Verbs | Idiom-Tech';
+    document.title = 'Deyimler & Phrasal Verbs | Idiom-Tech';
   }, []);
 
   const filters = tab === 'idioms' ? idiomFilters : phrasalFilters;
@@ -64,13 +63,20 @@ export default function Idioms() {
   };
 
   return (
-    <div className="container" style={{ paddingTop: '2rem', paddingBottom: '1rem' }}>
-      <h1>Idioms &amp; Phrasal Verbs</h1>
-      <p style={{ color: 'var(--muted)', maxWidth: '42rem' }}>
-        Discover common English expressions and phrasal verbs with clear meanings and practical examples.
-      </p>
+    <div className="container" style={{ paddingBottom: '1rem' }}>
+      <div className="page-hero">
+        <div className="kicker">💬 İfade rafı</div>
+        <h1>Deyimler & <span className="hl">Phrasal Verbs</span></h1>
+        <p>
+          Birebir çevirince komik duran ama ana dili İngilizce olanların her gün kullandığı ifadeler.
+          <strong> {IDIOMS.length} deyim + {PHRASALS.length} phrasal verb</strong>, her birinde
+          <strong> Türkçe anlam, ne zaman kullanılır bilgisi ve çevirili örnek</strong> var.
+          Sekmelerle geçiş yap, karta tıkla, kart yanında açılsın.
+        </p>
+        <span className="tip">💡 Örnek: "It's raining cats and dogs" — kedi köpek yağmıyor, bardaktan boşanıyor demek 😄</span>
+      </div>
 
-      <div className="subtabs" role="tablist" aria-label="Expression type">
+      <div className="subtabs" role="tablist" aria-label="İfade türü">
         <button
           type="button"
           role="tab"
@@ -78,7 +84,7 @@ export default function Idioms() {
           className={`subtab${tab === 'idioms' ? ' active' : ''}`}
           onClick={() => switchTab('idioms')}
         >
-          Idioms ({IDIOMS.length})
+          Deyimler ({IDIOMS.length})
         </button>
         <button
           type="button"
@@ -95,42 +101,42 @@ export default function Idioms() {
         <SearchBar
           value={filters.query}
           onChange={(v) => setFilters((f) => ({ ...f, query: v }))}
-          placeholder={tab === 'idioms' ? 'Search for an idiom...' : 'Search for a phrasal verb...'}
-          label={tab === 'idioms' ? 'Search idioms by expression or meaning' : 'Search phrasal verbs by expression or meaning'}
+          placeholder={tab === 'idioms' ? 'Deyim ara... (ör. kolay, şans, korkmak)' : 'Phrasal verb ara... (ör. give up, vazgeçmek)'}
+          label={tab === 'idioms' ? 'Deyimleri ifade veya anlam ile ara' : 'Phrasal verbleri ifade veya anlam ile ara'}
         />
       </div>
 
       <AlphabetFilter
         selected={filters.letter}
         onSelect={(letter) => setFilters((f) => ({ ...f, letter }))}
-        label={`Filter ${tab === 'idioms' ? 'idioms' : 'phrasal verbs'} by first letter`}
+        label={`${tab === 'idioms' ? 'Deyimleri' : 'Phrasal verbleri'} baş harfine göre süz`}
       />
 
-      <div className="filter-row" role="group" aria-label="Level filter">
+      <div className="filter-row" role="group" aria-label="Seviye filtresi">
         <select
           className="filter-select"
-          aria-label="Filter by level"
+          aria-label="Seviyeye göre süz"
           value={filters.level}
           onChange={(e) => setFilters((f) => ({ ...f, level: e.target.value }))}
         >
-          <option value="ALL">All levels</option>
+          <option value="ALL">Tüm seviyeler</option>
           {levels.map((l) => (
             <option key={l} value={l}>{l}</option>
           ))}
         </select>
         {(filters.query !== '' || filters.letter !== 'ALL' || filters.level !== 'ALL') && (
           <button type="button" className="btn btn-secondary" style={{ minHeight: 44 }} onClick={reset}>
-            Clear filters
+            Filtreleri temizle
           </button>
         )}
       </div>
 
       <p className="result-count" role="status">
-        {results.length} expression{results.length === 1 ? '' : 's'} found
+        {results.length} ifade bulundu
       </p>
 
       {results.length === 0 ? (
-        <EmptyState message="No results found. Try changing your search or filters." onReset={reset} />
+        <EmptyState message="Sonuç bulunamadı. Aramanı ya da filtreleri değiştir." onReset={reset} />
       ) : (
         <div className="list-layout">
           <div className="entry-grid">
@@ -139,7 +145,7 @@ export default function Idioms() {
                   <EntryCard
                     key={e.id}
                     title={e.expression}
-                    badge="Idiom"
+                    badge="Deyim"
                     subtitle={e.meaningTr}
                     selected={selectedId === e.id}
                     onSelect={() => setSelectedId((prev) => (prev === e.id ? null : e.id))}

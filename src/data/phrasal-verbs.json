@@ -1,8 +1,77 @@
 [
   {
+    "id": "phr-act-up",
+    "expression": "Act up",
+    "meanings": [
+      "Yaramazlık yapmak",
+      "Arızalanmak"
+    ],
+    "definitionEn": "To behave badly; or a machine not working well.",
+    "examples": [
+      {
+        "sentence": "My computer is acting up again.",
+        "translation": "Bilgisayarım yine arızalandı."
+      }
+    ],
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "phr-add-up",
+    "expression": "Add up",
+    "meanings": [
+      "Toplamak",
+      "Mantıklı gelmek"
+    ],
+    "definitionEn": "To total numbers; or to make sense.",
+    "examples": [
+      {
+        "sentence": "His story doesn't add up.",
+        "translation": "Hikâyesi mantıklı gelmiyor."
+      }
+    ],
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "phr-ask-out",
+    "expression": "Ask out",
+    "meanings": [
+      "Davet etmek (buluşmaya)"
+    ],
+    "definitionEn": "To invite someone on a date.",
+    "examples": [
+      {
+        "sentence": "He asked her out to the cinema.",
+        "translation": "Onu sinemaya davet etti."
+      }
+    ],
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "phr-back-down",
+    "expression": "Back down",
+    "meanings": [
+      "Geri adım atmak"
+    ],
+    "definitionEn": "To give up your position in an argument.",
+    "examples": [
+      {
+        "sentence": "He refused to back down.",
+        "translation": "Geri adım atmayı reddetti."
+      }
+    ],
+    "level": "B2",
+    "source": ""
+  },
+  {
     "id": "phr-back-up",
     "expression": "Back up",
-    "meanings": ["Desteklemek", "Yedeklemek (veri)"],
+    "meanings": [
+      "Desteklemek",
+      "Yedeklemek (veri)"
+    ],
     "definitionEn": "To support someone; or to make a copy of data.",
     "examples": [
       {
@@ -18,9 +87,78 @@
     "source": ""
   },
   {
+    "id": "phr-bail-out",
+    "expression": "Bail out",
+    "meanings": [
+      "Kurtarmak (zor durumdan)"
+    ],
+    "definitionEn": "To rescue someone from trouble.",
+    "examples": [
+      {
+        "sentence": "My friend bailed me out when I forgot my wallet.",
+        "translation": "Cüzdanımı unutunca arkadaşım beni kurtardı."
+      }
+    ],
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "phr-bank-on",
+    "expression": "Bank on",
+    "meanings": [
+      "Güvenmek",
+      "Bel bağlamak"
+    ],
+    "definitionEn": "To depend on something happening.",
+    "examples": [
+      {
+        "sentence": "Don't bank on good weather; take a jacket.",
+        "translation": "Güzel havaya bel bağlama; ceket al."
+      }
+    ],
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "phr-beef-up",
+    "expression": "Beef up",
+    "meanings": [
+      "Güçlendirmek"
+    ],
+    "definitionEn": "To make something stronger.",
+    "examples": [
+      {
+        "sentence": "Add examples to beef up your essay.",
+        "translation": "Kompozisyonunu güçlendirmek için örnekler ekle."
+      }
+    ],
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "phr-belong-to",
+    "expression": "Belong to",
+    "meanings": [
+      "Ait olmak",
+      "Üye olmak"
+    ],
+    "definitionEn": "To be a member of a group.",
+    "examples": [
+      {
+        "sentence": "She belongs to the chess club.",
+        "translation": "Satranç kulübüne üye."
+      }
+    ],
+    "level": "A2",
+    "source": ""
+  },
+  {
     "id": "phr-blow-up",
     "expression": "Blow up",
-    "meanings": ["Şişirmek (balon)", "Patlamak"],
+    "meanings": [
+      "Şişirmek (balon)",
+      "Patlamak"
+    ],
     "definitionEn": "To fill something with air; or to explode.",
     "examples": [
       {
@@ -32,9 +170,60 @@
     "source": ""
   },
   {
+    "id": "phr-blurt-out",
+    "expression": "Blurt out",
+    "meanings": [
+      "Ağzından kaçırmak"
+    ],
+    "definitionEn": "To say something suddenly without thinking.",
+    "examples": [
+      {
+        "sentence": "He blurted out the answer.",
+        "translation": "Cevabı ağzından kaçırdı."
+      }
+    ],
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "phr-book-into",
+    "expression": "Book into",
+    "meanings": [
+      "Otele yerleşmek"
+    ],
+    "definitionEn": "To register at a hotel on arrival.",
+    "examples": [
+      {
+        "sentence": "We booked into a small hotel.",
+        "translation": "Küçük bir otele yerleştik."
+      }
+    ],
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "phr-bottle-up",
+    "expression": "Bottle up",
+    "meanings": [
+      "İçine atmak (duyguları)"
+    ],
+    "definitionEn": "To hide your feelings instead of sharing.",
+    "examples": [
+      {
+        "sentence": "Don't bottle up your feelings; talk to someone.",
+        "translation": "Duygularını içine atma; biriyle konuş."
+      }
+    ],
+    "level": "B2",
+    "source": ""
+  },
+  {
     "id": "phr-break-down",
     "expression": "Break down",
-    "meanings": ["Bozulmak (makine)", "Duygusal olarak yıkılmak"],
+    "meanings": [
+      "Bozulmak (makine)",
+      "Duygusal olarak yıkılmak"
+    ],
     "definitionEn": "To stop working; or to lose control of your emotions.",
     "examples": [
       {
@@ -46,9 +235,62 @@
     "source": ""
   },
   {
+    "id": "phr-break-into",
+    "expression": "Break into",
+    "meanings": [
+      "Zorla girmek"
+    ],
+    "definitionEn": "To enter a building by force.",
+    "examples": [
+      {
+        "sentence": "Someone broke into our garage.",
+        "translation": "Biri garajımıza zorla girdi."
+      }
+    ],
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "phr-break-out",
+    "expression": "Break out",
+    "meanings": [
+      "Patlak vermek",
+      "Kaçmak"
+    ],
+    "definitionEn": "When something bad starts suddenly.",
+    "examples": [
+      {
+        "sentence": "A fire broke out in the kitchen.",
+        "translation": "Mutfakta yangın çıktı."
+      }
+    ],
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "phr-bring-about",
+    "expression": "Bring about",
+    "meanings": [
+      "Neden olmak",
+      "Meydana getirmek"
+    ],
+    "definitionEn": "To cause something to happen.",
+    "examples": [
+      {
+        "sentence": "New rules brought about big changes.",
+        "translation": "Yeni kurallar büyük değişikliklere neden oldu."
+      }
+    ],
+    "level": "B2",
+    "source": ""
+  },
+  {
     "id": "phr-bring-up",
     "expression": "Bring up",
-    "meanings": ["Konuyu açmak", "Büyütmek, yetiştirmek (çocuk)"],
+    "meanings": [
+      "Konuyu açmak",
+      "Büyütmek, yetiştirmek (çocuk)"
+    ],
     "definitionEn": "To mention a topic; or to raise a child.",
     "examples": [
       {
@@ -60,9 +302,59 @@
     "source": ""
   },
   {
+    "id": "phr-brush-up-on",
+    "expression": "Brush up on",
+    "meanings": [
+      "Tazelemek (bilgiyi)"
+    ],
+    "definitionEn": "To review something you learned before.",
+    "examples": [
+      {
+        "sentence": "I must brush up on irregular verbs.",
+        "translation": "Düzensiz fiilleri tazelemeliyim."
+      }
+    ],
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "phr-bump-into",
+    "expression": "Bump into",
+    "meanings": [
+      "Tesadüfen karşılaşmak"
+    ],
+    "definitionEn": "To meet someone by chance.",
+    "examples": [
+      {
+        "sentence": "I bumped into my teacher at the market.",
+        "translation": "Markette öğretmenimle tesadüfen karşılaştım."
+      }
+    ],
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "phr-burn-out",
+    "expression": "Burn out",
+    "meanings": [
+      "Tükenmek"
+    ],
+    "definitionEn": "To become extremely tired from overwork.",
+    "examples": [
+      {
+        "sentence": "Study breaks stop you from burning out.",
+        "translation": "Ders molaları tükenmeni engeller."
+      }
+    ],
+    "level": "B2",
+    "source": ""
+  },
+  {
     "id": "phr-call-off",
     "expression": "Call off",
-    "meanings": ["İptal etmek"],
+    "meanings": [
+      "İptal etmek"
+    ],
     "definitionEn": "To cancel a planned event.",
     "examples": [
       {
@@ -74,9 +366,27 @@
     "source": ""
   },
   {
+    "id": "phr-calm-down",
+    "expression": "Calm down",
+    "meanings": [
+      "Sakinleşmek"
+    ],
+    "definitionEn": "To become less angry or nervous.",
+    "examples": [
+      {
+        "sentence": "Calm down and tell me slowly.",
+        "translation": "Sakinleş ve yavaşça anlat."
+      }
+    ],
+    "level": "A2",
+    "source": ""
+  },
+  {
     "id": "phr-carry-on",
     "expression": "Carry on",
-    "meanings": ["Devam etmek"],
+    "meanings": [
+      "Devam etmek"
+    ],
     "definitionEn": "To continue doing something.",
     "examples": [
       {
@@ -88,9 +398,46 @@
     "source": ""
   },
   {
+    "id": "phr-carry-out",
+    "expression": "Carry out",
+    "meanings": [
+      "Yerine getirmek",
+      "Gerçekleştirmek"
+    ],
+    "definitionEn": "To do a task as planned.",
+    "examples": [
+      {
+        "sentence": "Scientists carry out experiments.",
+        "translation": "Bilim insanları deney yapar."
+      }
+    ],
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "phr-catch-on",
+    "expression": "Catch on",
+    "meanings": [
+      "Kavramak",
+      "Moda olmak"
+    ],
+    "definitionEn": "To understand; or to become popular.",
+    "examples": [
+      {
+        "sentence": "This game caught on quickly at school.",
+        "translation": "Bu oyun okulda hızlıca moda oldu."
+      }
+    ],
+    "level": "B1",
+    "source": ""
+  },
+  {
     "id": "phr-catch-up",
     "expression": "Catch up",
-    "meanings": ["Yetişmek", "Arayı kapatmak"],
+    "meanings": [
+      "Yetişmek",
+      "Arayı kapatmak"
+    ],
     "definitionEn": "To reach the same level as others after being behind.",
     "examples": [
       {
@@ -104,7 +451,10 @@
   {
     "id": "phr-check-out",
     "expression": "Check out",
-    "meanings": ["Göz atmak", "Çıkış yapmak (otel)"],
+    "meanings": [
+      "Göz atmak",
+      "Çıkış yapmak (otel)"
+    ],
     "definitionEn": "To look at something with interest; or to leave a hotel.",
     "examples": [
       {
@@ -116,9 +466,111 @@
     "source": ""
   },
   {
+    "id": "phr-cheer-up",
+    "expression": "Cheer up",
+    "meanings": [
+      "Neşelendirmek"
+    ],
+    "definitionEn": "To make someone happier.",
+    "examples": [
+      {
+        "sentence": "A walk cheered me up.",
+        "translation": "Yürüyüş beni neşelendirdi."
+      }
+    ],
+    "level": "A2",
+    "source": ""
+  },
+  {
+    "id": "phr-chicken-out",
+    "expression": "Chicken out",
+    "meanings": [
+      "Korkup vazgeçmek"
+    ],
+    "definitionEn": "To avoid doing something from fear.",
+    "examples": [
+      {
+        "sentence": "He chickened out of the bungee jump.",
+        "translation": "Bungee jumping'den korkup vazgeçti."
+      }
+    ],
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "phr-chime-in",
+    "expression": "Chime in",
+    "meanings": [
+      "Lafa karışmak"
+    ],
+    "definitionEn": "To join a conversation suddenly.",
+    "examples": [
+      {
+        "sentence": "Everyone chimed in with ideas.",
+        "translation": "Herkes fikirleriyle lafa karıştı."
+      }
+    ],
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "phr-clean-up",
+    "expression": "Clean up",
+    "meanings": [
+      "Temizlemek",
+      "Toplamak"
+    ],
+    "definitionEn": "To make a place tidy.",
+    "examples": [
+      {
+        "sentence": "Let's clean up the classroom.",
+        "translation": "Sınıfı toplayalım."
+      }
+    ],
+    "level": "A2",
+    "source": ""
+  },
+  {
+    "id": "phr-clear-up",
+    "expression": "Clear up",
+    "meanings": [
+      "Açıklığa kavuşturmak",
+      "Havanın açması"
+    ],
+    "definitionEn": "To explain; or weather becoming fine.",
+    "examples": [
+      {
+        "sentence": "This lesson cleared up my confusion.",
+        "translation": "Bu ders kafamdaki karışıklığı giderdi."
+      }
+    ],
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "phr-clown-around",
+    "expression": "Clown around",
+    "meanings": [
+      "Soytarılık yapmak",
+      "Şımarmak"
+    ],
+    "definitionEn": "To behave foolishly to make others laugh.",
+    "examples": [
+      {
+        "sentence": "Stop clowning around and focus!",
+        "translation": "Şımarmayı bırak ve odaklan!"
+      }
+    ],
+    "level": "B2",
+    "source": ""
+  },
+  {
     "id": "phr-come-across",
     "expression": "Come across",
-    "meanings": ["Rastlamak", "Tesadüfen bulmak"],
+    "meanings": [
+      "Rastlamak",
+      "Tesadüfen bulmak"
+    ],
     "definitionEn": "To meet or find something by chance.",
     "examples": [
       {
@@ -130,9 +582,61 @@
     "source": ""
   },
   {
+    "id": "phr-come-around",
+    "expression": "Come around",
+    "meanings": [
+      "Fikrini değiştirmek",
+      "Kendine gelmek"
+    ],
+    "definitionEn": "To change your mind; or to wake up.",
+    "examples": [
+      {
+        "sentence": "He finally came around to our plan.",
+        "translation": "Sonunda planımıza ikna oldu."
+      }
+    ],
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "phr-come-down-with",
+    "expression": "Come down with",
+    "meanings": [
+      "Hastalanmak"
+    ],
+    "definitionEn": "To become ill with something.",
+    "examples": [
+      {
+        "sentence": "She came down with the flu.",
+        "translation": "Gribe yakalandı."
+      }
+    ],
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "phr-come-in-handy",
+    "expression": "Come in handy",
+    "meanings": [
+      "İşine yaramak"
+    ],
+    "definitionEn": "To be useful in the future.",
+    "examples": [
+      {
+        "sentence": "Extra pens always come in handy.",
+        "translation": "Yedek kalemler hep işe yarar."
+      }
+    ],
+    "level": "B1",
+    "source": ""
+  },
+  {
     "id": "phr-come-up-with",
     "expression": "Come up with",
-    "meanings": ["Fikir üretmek", "Bulmak (çözüm)"],
+    "meanings": [
+      "Fikir üretmek",
+      "Bulmak (çözüm)"
+    ],
     "definitionEn": "To think of an idea or solution.",
     "examples": [
       {
@@ -144,9 +648,45 @@
     "source": ""
   },
   {
+    "id": "phr-cool-off",
+    "expression": "Cool off",
+    "meanings": [
+      "Serinlemek",
+      "Sakinleşmek"
+    ],
+    "definitionEn": "To become cooler or calmer.",
+    "examples": [
+      {
+        "sentence": "Let's cool off with some lemonade.",
+        "translation": "Biraz limonatayla serinleyelim."
+      }
+    ],
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "phr-cope-with",
+    "expression": "Cope with",
+    "meanings": [
+      "Başa çıkmak"
+    ],
+    "definitionEn": "To manage a difficult situation.",
+    "examples": [
+      {
+        "sentence": "How do you cope with exam stress?",
+        "translation": "Sınav stresiyle nasıl başa çıkıyorsun?"
+      }
+    ],
+    "level": "B1",
+    "source": ""
+  },
+  {
     "id": "phr-count-on",
     "expression": "Count on",
-    "meanings": ["Güvenmek", "Bel bağlamak"],
+    "meanings": [
+      "Güvenmek",
+      "Bel bağlamak"
+    ],
     "definitionEn": "To trust someone to do something.",
     "examples": [
       {
@@ -158,9 +698,60 @@
     "source": ""
   },
   {
+    "id": "phr-cross-out",
+    "expression": "Cross out",
+    "meanings": [
+      "Üstünü çizmek"
+    ],
+    "definitionEn": "To draw a line through writing.",
+    "examples": [
+      {
+        "sentence": "Cross out the wrong answer.",
+        "translation": "Yanlış cevabın üstünü çiz."
+      }
+    ],
+    "level": "A2",
+    "source": ""
+  },
+  {
+    "id": "phr-cut-back-on",
+    "expression": "Cut back on",
+    "meanings": [
+      "Azaltmak"
+    ],
+    "definitionEn": "To reduce the use of something.",
+    "examples": [
+      {
+        "sentence": "We should cut back on plastic.",
+        "translation": "Plastiği azaltmalıyız."
+      }
+    ],
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "phr-cut-in",
+    "expression": "Cut in",
+    "meanings": [
+      "Sözünü kesmek",
+      "Araya girmek"
+    ],
+    "definitionEn": "To interrupt someone speaking.",
+    "examples": [
+      {
+        "sentence": "Don't cut in while I'm talking.",
+        "translation": "Konuşurken sözümü kesme."
+      }
+    ],
+    "level": "B1",
+    "source": ""
+  },
+  {
     "id": "phr-cut-off",
     "expression": "Cut off",
-    "meanings": ["Kesmek (elektrik, telefon)"],
+    "meanings": [
+      "Kesmek (elektrik, telefon)"
+    ],
     "definitionEn": "To stop the supply of something.",
     "examples": [
       {
@@ -174,7 +765,10 @@
   {
     "id": "phr-deal-with",
     "expression": "Deal with",
-    "meanings": ["Başa çıkmak", "İlgilenmek (sorun)"],
+    "meanings": [
+      "Başa çıkmak",
+      "İlgilenmek (sorun)"
+    ],
     "definitionEn": "To handle or manage a problem.",
     "examples": [
       {
@@ -186,9 +780,92 @@
     "source": ""
   },
   {
+    "id": "phr-die-down",
+    "expression": "Die down",
+    "meanings": [
+      "Yatışmak",
+      "Azalmak"
+    ],
+    "definitionEn": "To slowly become weaker.",
+    "examples": [
+      {
+        "sentence": "The storm died down at midnight.",
+        "translation": "Fırtına gece yarısı yatıştı."
+      }
+    ],
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "phr-do-away-with",
+    "expression": "Do away with",
+    "meanings": [
+      "Ortadan kaldırmak"
+    ],
+    "definitionEn": "To get rid of something.",
+    "examples": [
+      {
+        "sentence": "They did away with plastic bags.",
+        "translation": "Plastik poşetleri ortadan kaldırdılar."
+      }
+    ],
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "phr-do-over",
+    "expression": "Do over",
+    "meanings": [
+      "Baştan yapmak"
+    ],
+    "definitionEn": "To do something again.",
+    "examples": [
+      {
+        "sentence": "My writing was messy, so I did it over.",
+        "translation": "Yazım dağınıktı, o yüzden baştan yaptım."
+      }
+    ],
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "phr-drag-on",
+    "expression": "Drag on",
+    "meanings": [
+      "Uzayıp gitmek (sıkıcı şekilde)"
+    ],
+    "definitionEn": "To last too long boringly.",
+    "examples": [
+      {
+        "sentence": "The meeting dragged on for hours.",
+        "translation": "Toplantı saatlerce uzayıp gitti."
+      }
+    ],
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "phr-draw-up",
+    "expression": "Draw up",
+    "meanings": [
+      "Hazırlamak (plan, liste)"
+    ],
+    "definitionEn": "To prepare a document or plan.",
+    "examples": [
+      {
+        "sentence": "We drew up a study schedule.",
+        "translation": "Bir çalışma programı hazırladık."
+      }
+    ],
+    "level": "B2",
+    "source": ""
+  },
+  {
     "id": "phr-dress-up",
     "expression": "Dress up",
-    "meanings": ["Şık giyinmek"],
+    "meanings": [
+      "Şık giyinmek"
+    ],
     "definitionEn": "To wear formal or special clothes.",
     "examples": [
       {
@@ -200,9 +877,126 @@
     "source": ""
   },
   {
+    "id": "phr-drift-off",
+    "expression": "Drift off",
+    "meanings": [
+      "Uykuya dalmak"
+    ],
+    "definitionEn": "To fall asleep slowly.",
+    "examples": [
+      {
+        "sentence": "I drifted off during the film.",
+        "translation": "Film sırasında uykuya daldım."
+      }
+    ],
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "phr-drill-into",
+    "expression": "Drill into",
+    "meanings": [
+      "Kafasına sokmak (tekrarla öğretmek)"
+    ],
+    "definitionEn": "To teach by repeating many times.",
+    "examples": [
+      {
+        "sentence": "Our coach drills new words into us.",
+        "translation": "Antrenörümüz yeni kelimeleri bize tekrarla öğretiyor."
+      }
+    ],
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "phr-drop-by",
+    "expression": "Drop by",
+    "meanings": [
+      "Uğramak"
+    ],
+    "definitionEn": "To visit briefly without planning.",
+    "examples": [
+      {
+        "sentence": "Drop by after school!",
+        "translation": "Okuldan sonra uğra!"
+      }
+    ],
+    "level": "A2",
+    "source": ""
+  },
+  {
+    "id": "phr-drop-off",
+    "expression": "Drop off",
+    "meanings": [
+      "Bırakmak (birini bir yere)",
+      "Azalmak"
+    ],
+    "definitionEn": "To take someone somewhere; or to fall asleep.",
+    "examples": [
+      {
+        "sentence": "My dad drops me off at school.",
+        "translation": "Babam beni okula bırakıyor."
+      }
+    ],
+    "level": "A2",
+    "source": ""
+  },
+  {
+    "id": "phr-drop-out",
+    "expression": "Drop out",
+    "meanings": [
+      "Okulu bırakmak"
+    ],
+    "definitionEn": "To leave school before finishing.",
+    "examples": [
+      {
+        "sentence": "Never drop out; finish what you start.",
+        "translation": "Asla bırakma; başladığını bitir."
+      }
+    ],
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "phr-eat-out",
+    "expression": "Eat out",
+    "meanings": [
+      "Dışarıda yemek yemek"
+    ],
+    "definitionEn": "To eat at a restaurant.",
+    "examples": [
+      {
+        "sentence": "We eat out every Friday.",
+        "translation": "Her cuma dışarıda yeriz."
+      }
+    ],
+    "level": "A2",
+    "source": ""
+  },
+  {
+    "id": "phr-egg-on",
+    "expression": "Egg on",
+    "meanings": [
+      "Kışkırtmak",
+      "Cesaretlendirmek (yaramazlığa)"
+    ],
+    "definitionEn": "To encourage someone to do something foolish.",
+    "examples": [
+      {
+        "sentence": "His friends egged him on to skip class.",
+        "translation": "Arkadaşları onu dersi kırmaya kışkırttı."
+      }
+    ],
+    "level": "B2",
+    "source": ""
+  },
+  {
     "id": "phr-figure-out",
     "expression": "Figure out",
-    "meanings": ["Anlamak", "Çözmek"],
+    "meanings": [
+      "Anlamak",
+      "Çözmek"
+    ],
     "definitionEn": "To understand or solve something.",
     "examples": [
       {
@@ -216,7 +1010,9 @@
   {
     "id": "phr-fill-in",
     "expression": "Fill in",
-    "meanings": ["Doldurmak (form)"],
+    "meanings": [
+      "Doldurmak (form)"
+    ],
     "definitionEn": "To write information in a form or document.",
     "examples": [
       {
@@ -230,7 +1026,10 @@
   {
     "id": "phr-find-out",
     "expression": "Find out",
-    "meanings": ["Öğrenmek", "Keşfetmek"],
+    "meanings": [
+      "Öğrenmek",
+      "Keşfetmek"
+    ],
     "definitionEn": "To learn information about something.",
     "examples": [
       {
@@ -244,7 +1043,9 @@
   {
     "id": "phr-get-along-with",
     "expression": "Get along with",
-    "meanings": ["İyi geçinmek"],
+    "meanings": [
+      "İyi geçinmek"
+    ],
     "definitionEn": "To have a good relationship with someone.",
     "examples": [
       {
@@ -258,7 +1059,9 @@
   {
     "id": "phr-get-over",
     "expression": "Get over",
-    "meanings": ["Atlatmak (hastalık, korku)"],
+    "meanings": [
+      "Atlatmak (hastalık, korku)"
+    ],
     "definitionEn": "To recover from an illness or a bad feeling.",
     "examples": [
       {
@@ -272,7 +1075,10 @@
   {
     "id": "phr-give-up",
     "expression": "Give up",
-    "meanings": ["Vazgeçmek", "Bırakmak"],
+    "meanings": [
+      "Vazgeçmek",
+      "Bırakmak"
+    ],
     "definitionEn": "To stop trying to do something.",
     "examples": [
       {
@@ -286,7 +1092,9 @@
   {
     "id": "phr-go-on",
     "expression": "Go on",
-    "meanings": ["Devam etmek"],
+    "meanings": [
+      "Devam etmek"
+    ],
     "definitionEn": "To continue happening or doing something.",
     "examples": [
       {
@@ -300,7 +1108,9 @@
   {
     "id": "phr-grow-up",
     "expression": "Grow up",
-    "meanings": ["Büyümek"],
+    "meanings": [
+      "Büyümek"
+    ],
     "definitionEn": "To change from a child into an adult.",
     "examples": [
       {
@@ -314,7 +1124,10 @@
   {
     "id": "phr-hang-out",
     "expression": "Hang out",
-    "meanings": ["Takılmak", "Birlikte vakit geçirmek"],
+    "meanings": [
+      "Takılmak",
+      "Birlikte vakit geçirmek"
+    ],
     "definitionEn": "To spend time with friends in a relaxed way.",
     "examples": [
       {
@@ -328,7 +1141,10 @@
   {
     "id": "phr-hold-on",
     "expression": "Hold on",
-    "meanings": ["Beklemek", "Hatta kalmak"],
+    "meanings": [
+      "Beklemek",
+      "Hatta kalmak"
+    ],
     "definitionEn": "To wait for a short time.",
     "examples": [
       {
@@ -342,7 +1158,9 @@
   {
     "id": "phr-keep-up-with",
     "expression": "Keep up with",
-    "meanings": ["Ayak uydurmak"],
+    "meanings": [
+      "Ayak uydurmak"
+    ],
     "definitionEn": "To stay at the same level as others.",
     "examples": [
       {
@@ -356,7 +1174,10 @@
   {
     "id": "phr-look-after",
     "expression": "Look after",
-    "meanings": ["Bakmak", "İlgilenmek"],
+    "meanings": [
+      "Bakmak",
+      "İlgilenmek"
+    ],
     "definitionEn": "To take care of someone or something.",
     "examples": [
       {
@@ -370,7 +1191,9 @@
   {
     "id": "phr-look-forward-to",
     "expression": "Look forward to",
-    "meanings": ["Dört gözle beklemek"],
+    "meanings": [
+      "Dört gözle beklemek"
+    ],
     "definitionEn": "To feel excited about something in the future.",
     "examples": [
       {
@@ -384,7 +1207,10 @@
   {
     "id": "phr-look-up",
     "expression": "Look up",
-    "meanings": ["Sözlükten bakmak", "Araştırmak"],
+    "meanings": [
+      "Sözlükten bakmak",
+      "Araştırmak"
+    ],
     "definitionEn": "To search for information in a book or online.",
     "examples": [
       {
@@ -398,7 +1224,10 @@
   {
     "id": "phr-pick-up",
     "expression": "Pick up",
-    "meanings": ["Almak, kaldırmak", "Kapmak (dil öğrenmek)"],
+    "meanings": [
+      "Almak, kaldırmak",
+      "Kapmak (dil öğrenmek)"
+    ],
     "definitionEn": "To lift something; or to learn something easily.",
     "examples": [
       {
@@ -412,7 +1241,9 @@
   {
     "id": "phr-put-off",
     "expression": "Put off",
-    "meanings": ["Ertelemek"],
+    "meanings": [
+      "Ertelemek"
+    ],
     "definitionEn": "To delay something to a later time.",
     "examples": [
       {
@@ -426,7 +1257,10 @@
   {
     "id": "phr-run-out-of",
     "expression": "Run out of",
-    "meanings": ["Tükenmek", "Kalmamak"],
+    "meanings": [
+      "Tükenmek",
+      "Kalmamak"
+    ],
     "definitionEn": "To have none of something left.",
     "examples": [
       {
@@ -440,7 +1274,10 @@
   {
     "id": "phr-set-up",
     "expression": "Set up",
-    "meanings": ["Kurmak", "Hazırlamak"],
+    "meanings": [
+      "Kurmak",
+      "Hazırlamak"
+    ],
     "definitionEn": "To start or arrange something new.",
     "examples": [
       {
@@ -454,7 +1291,10 @@
   {
     "id": "phr-show-up",
     "expression": "Show up",
-    "meanings": ["Gelmek", "Ortaya çıkmak"],
+    "meanings": [
+      "Gelmek",
+      "Ortaya çıkmak"
+    ],
     "definitionEn": "To arrive or appear somewhere.",
     "examples": [
       {
@@ -468,7 +1308,9 @@
   {
     "id": "phr-take-after",
     "expression": "Take after",
-    "meanings": ["Benzemek (aile bireyine)"],
+    "meanings": [
+      "Benzemek (aile bireyine)"
+    ],
     "definitionEn": "To look or behave like a family member.",
     "examples": [
       {
@@ -482,7 +1324,10 @@
   {
     "id": "phr-throw-away",
     "expression": "Throw away",
-    "meanings": ["Atmak", "Çöpe atmak"],
+    "meanings": [
+      "Atmak",
+      "Çöpe atmak"
+    ],
     "definitionEn": "To put something in the rubbish.",
     "examples": [
       {
@@ -496,7 +1341,10 @@
   {
     "id": "phr-turn-down",
     "expression": "Turn down",
-    "meanings": ["Reddetmek", "Kısmak (ses)"],
+    "meanings": [
+      "Reddetmek",
+      "Kısmak (ses)"
+    ],
     "definitionEn": "To refuse an offer; or to lower the volume.",
     "examples": [
       {
@@ -510,7 +1358,9 @@
   {
     "id": "phr-turn-off",
     "expression": "Turn off",
-    "meanings": ["Kapatmak (cihaz)"],
+    "meanings": [
+      "Kapatmak (cihaz)"
+    ],
     "definitionEn": "To stop a machine by pressing a switch or button.",
     "examples": [
       {
@@ -524,7 +1374,9 @@
   {
     "id": "phr-turn-on",
     "expression": "Turn on",
-    "meanings": ["Açmak (cihaz)"],
+    "meanings": [
+      "Açmak (cihaz)"
+    ],
     "definitionEn": "To start a machine by pressing a switch or button.",
     "examples": [
       {
@@ -538,7 +1390,10 @@
   {
     "id": "phr-wake-up",
     "expression": "Wake up",
-    "meanings": ["Uyanmak", "Uyandırmak"],
+    "meanings": [
+      "Uyanmak",
+      "Uyandırmak"
+    ],
     "definitionEn": "To stop sleeping.",
     "examples": [
       {
@@ -552,7 +1407,10 @@
   {
     "id": "phr-work-out",
     "expression": "Work out",
-    "meanings": ["Egzersiz yapmak", "Çözülmek, yoluna girmek"],
+    "meanings": [
+      "Egzersiz yapmak",
+      "Çözülmek, yoluna girmek"
+    ],
     "definitionEn": "To exercise; or to develop in a good way.",
     "examples": [
       {

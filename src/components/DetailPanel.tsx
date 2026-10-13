@@ -37,10 +37,10 @@ export default function DetailPanel({ data, isFavorite, onToggleFavorite, onClos
 
   if (!data) {
     return (
-      <aside className="detail" aria-label="Details">
+      <aside className="detail" aria-label="Detaylar">
         <div className="detail-empty">
-          <p style={{ fontWeight: 700 }}>Select an entry</p>
-          <p>Click any word or expression to see its meaning, examples and translation here.</p>
+          <p style={{ fontWeight: 800, fontFamily: 'var(--font-serif)', fontSize: '1.2rem', color: 'var(--ink)' }}>Bir kart seç 📖</p>
+          <p>Listeden herhangi bir kelimeye ya da deyime tıkla; Türkçe anlamı, İngilizce açıklaması ve örnek cümleler burada kâğıt kart gibi açılsın.</p>
         </div>
       </aside>
     );
@@ -62,24 +62,24 @@ export default function DetailPanel({ data, isFavorite, onToggleFavorite, onClos
             <div className="detail-title">{data.title}</div>
             <span className="detail-kind">{data.kindLabel}</span>
           </div>
-          <button type="button" className="icon-btn" aria-label="Close details" onClick={onClose}>
+          <button type="button" className="icon-btn" aria-label="Detayı kapat" onClick={onClose}>
             <X size={20} />
           </button>
         </div>
 
         <div className="detail-section">
-          <h4>Turkish Meaning</h4>
+          <h4>Türkçe Anlamı</h4>
           <p className="tr-text">{data.turkish.join(', ')}</p>
         </div>
 
         <div className="detail-section">
-          <h4>English Definition</h4>
+          <h4>İngilizce Açıklama</h4>
           <p>{data.definition}</p>
         </div>
 
         {data.examples.length > 0 && (
           <div className="detail-section">
-            <h4>Example Sentence{data.examples.length > 1 ? 's' : ''}</h4>
+            <h4>Örnek Cümle{data.examples.length > 1 ? 'ler' : ''}</h4>
             {data.examples.map((ex, i) => (
               <div className="example" key={i}>
                 <div className="en-quote">“{ex.sentence}”</div>
@@ -102,7 +102,7 @@ export default function DetailPanel({ data, isFavorite, onToggleFavorite, onClos
 
         {data.metaChips.length > 0 && (
           <div className="detail-section">
-            <h4>Details</h4>
+            <h4>Kart Bilgisi</h4>
             <div className="chip-row">
               {data.metaChips.map((c) => (
                 <span className={`chip${c.kind === 'level' ? ' level' : ''}`} key={c.label}>
@@ -120,7 +120,7 @@ export default function DetailPanel({ data, isFavorite, onToggleFavorite, onClos
           onClick={onToggleFavorite}
         >
           {isFavorite ? <HeartOff size={18} /> : <Heart size={18} />}
-          {isFavorite ? 'Remove from Favorites' : 'Add to Favorites'}
+          {isFavorite ? 'Favorilerden Çıkar' : 'Favorilere Ekle'}
         </button>
       </aside>
     </>

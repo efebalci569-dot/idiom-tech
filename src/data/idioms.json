@@ -1,5 +1,20 @@
 [
   {
+    "id": "idiom-blessing-in-disguise",
+    "expression": "A blessing in disguise",
+    "meaningTr": "Şer gibi görünen hayır, gizli şans.",
+    "definitionEn": "Something bad that turns out to be good.",
+    "examples": [
+      {
+        "sentence": "Missing the bus was a blessing in disguise; I met an old friend walking.",
+        "translation": "Otobüsü kaçırmak gizli bir şanstı; yürürken eski bir arkadaşımla karşılaştım."
+      }
+    ],
+    "usageContext": "Luck and life events.",
+    "level": "B2",
+    "source": ""
+  },
+  {
     "id": "idiom-a-piece-of-cake",
     "expression": "A piece of cake",
     "meaningTr": "Çok kolay bir şey.",
@@ -12,6 +27,81 @@
     ],
     "usageContext": "Exams and easy tasks.",
     "level": "A2",
+    "source": ""
+  },
+  {
+    "id": "idiom-storm-in-teacup",
+    "expression": "A storm in a teacup",
+    "meaningTr": "Bir kaşık suda fırtına koparmak.",
+    "definitionEn": "A big fuss about something small.",
+    "examples": [
+      {
+        "sentence": "The argument was just a storm in a teacup.",
+        "translation": "Tartışma bir kaşık suda fırtınaydı."
+      }
+    ],
+    "usageContext": "Small arguments.",
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "idiom-actions-speak-louder",
+    "expression": "Actions speak louder than words",
+    "meaningTr": "Lafla peynir gemisi yürümez; davranış sözden güçlüdür.",
+    "definitionEn": "What you do is more important than what you say.",
+    "examples": [
+      {
+        "sentence": "Don't promise; just study. Actions speak louder than words.",
+        "translation": "Söz verme; sadece çalış. Davranış sözden güçlüdür."
+      }
+    ],
+    "usageContext": "Advice and motivation.",
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "idiom-add-insult-to-injury",
+    "expression": "Add insult to injury",
+    "meaningTr": "Tuz biber ekmek, yaraya tuz basmak.",
+    "definitionEn": "To make a bad situation even worse.",
+    "examples": [
+      {
+        "sentence": "Losing the match was bad; the rain added insult to injury.",
+        "translation": "Maçı kaybetmek kötüydü; yağmur da tuzu biberi oldu."
+      }
+    ],
+    "usageContext": "Bad luck and problems.",
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "idiom-all-ears",
+    "expression": "All ears",
+    "meaningTr": "Dört kulakla dinlemek, pür dikkat kesilmek.",
+    "definitionEn": "Listening very carefully.",
+    "examples": [
+      {
+        "sentence": "Tell me everything; I'm all ears.",
+        "translation": "Her şeyi anlat; dört kulakla dinliyorum."
+      }
+    ],
+    "usageContext": "Conversations.",
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "idiom-apple-of-my-eye",
+    "expression": "Apple of my eye",
+    "meaningTr": "Göz bebeği, çok sevilen kişi.",
+    "definitionEn": "Someone you love very much.",
+    "examples": [
+      {
+        "sentence": "Her little brother is the apple of her eye.",
+        "translation": "Küçük kardeşi onun göz bebeği."
+      }
+    ],
+    "usageContext": "Family and love.",
+    "level": "B2",
     "source": ""
   },
   {
@@ -60,6 +150,36 @@
     "source": ""
   },
   {
+    "id": "idiom-call-it-a-day-2",
+    "expression": "Better late than never",
+    "meaningTr": "Geç olsun güç olmasın.",
+    "definitionEn": "It is better to do something late than not at all.",
+    "examples": [
+      {
+        "sentence": "You finally started running? Better late than never!",
+        "translation": "Sonunda koşmaya mı başladın? Geç olsun güç olmasın!"
+      }
+    ],
+    "usageContext": "Encouragement.",
+    "level": "A2",
+    "source": ""
+  },
+  {
+    "id": "idiom-ball-in-your-court-2",
+    "expression": "Bite off more than you can chew",
+    "meaningTr": "Boyundan büyük işe kalkışmak.",
+    "definitionEn": "To take on more work than you can handle.",
+    "examples": [
+      {
+        "sentence": "Three projects at once? Don't bite off more than you can chew.",
+        "translation": "Aynı anda üç proje mi? Boyundan büyük işe kalkışma."
+      }
+    ],
+    "usageContext": "Work and school load.",
+    "level": "B2",
+    "source": ""
+  },
+  {
     "id": "idiom-break-a-leg",
     "expression": "Break a leg",
     "meaningTr": "Bol şans (özellikle sahne öncesi söylenir).",
@@ -87,6 +207,51 @@
     ],
     "usageContext": "Social situations and first meetings.",
     "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "idiom-burn-the-midnight-oil",
+    "expression": "Burn the midnight oil",
+    "meaningTr": "Gece geç saatlere kadar ders çalışmak.",
+    "definitionEn": "To study or work late into the night.",
+    "examples": [
+      {
+        "sentence": "Exams are near; she's burning the midnight oil.",
+        "translation": "Sınavlar yakın; gece geç saatlere kadar çalışıyor."
+      }
+    ],
+    "usageContext": "Study and exams.",
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "idiom-butterflies-in-stomach",
+    "expression": "Butterflies in my stomach",
+    "meaningTr": "Karnında kelebekler uçuşması, çok heyecanlanmak.",
+    "definitionEn": "Feeling nervous and excited before something important.",
+    "examples": [
+      {
+        "sentence": "I had butterflies in my stomach before the presentation.",
+        "translation": "Sunumdan önce karnımda kelebekler uçuşuyordu."
+      }
+    ],
+    "usageContext": "Feelings before events.",
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "idiom-by-the-book",
+    "expression": "By the book",
+    "meaningTr": "Kuralına göre yapmak.",
+    "definitionEn": "Doing everything according to the rules.",
+    "examples": [
+      {
+        "sentence": "Our teacher does everything by the book.",
+        "translation": "Öğretmenimiz her şeyi kuralına göre yapar."
+      }
+    ],
+    "usageContext": "Rules and school.",
+    "level": "B2",
     "source": ""
   },
   {
@@ -120,6 +285,36 @@
     "source": ""
   },
   {
+    "id": "idiom-cross-that-bridge",
+    "expression": "Cross that bridge when you come to it",
+    "meaningTr": "Günü gelince düşünürüz.",
+    "definitionEn": "Deal with a problem only when it happens.",
+    "examples": [
+      {
+        "sentence": "Don't worry about university now; cross that bridge later.",
+        "translation": "Üniversiteyi şimdi dert etme; günü gelince düşünürsün."
+      }
+    ],
+    "usageContext": "Worries about the future.",
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "idiom-cost-arm-leg-2",
+    "expression": "Cry over spilled milk",
+    "meaningTr": "Olmuşla ölmüşe çare yok.",
+    "definitionEn": "Worrying about something you cannot change.",
+    "examples": [
+      {
+        "sentence": "The exam is over; no use crying over spilled milk.",
+        "translation": "Sınav bitti; olmuşla ölmüşe çare yok."
+      }
+    ],
+    "usageContext": "Regrets and comfort.",
+    "level": "B1",
+    "source": ""
+  },
+  {
     "id": "idiom-cut-corners",
     "expression": "Cut corners",
     "meaningTr": "İşten kaçmak, işi ucuza getirmek.",
@@ -135,6 +330,66 @@
     "source": ""
   },
   {
+    "id": "idiom-cut-to-the-chase",
+    "expression": "Cut to the chase",
+    "meaningTr": "Sadede gelmek.",
+    "definitionEn": "Go directly to the main point.",
+    "examples": [
+      {
+        "sentence": "We have little time, so cut to the chase.",
+        "translation": "Az vaktimiz var, sadede gel."
+      }
+    ],
+    "usageContext": "Meetings and talks.",
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "idiom-dont-count-chickens",
+    "expression": "Don't count your chickens before they hatch",
+    "meaningTr": "Dereyi görmeden paçaları sıvama.",
+    "definitionEn": "Don't assume success before it happens.",
+    "examples": [
+      {
+        "sentence": "You haven't passed yet; don't count your chickens.",
+        "translation": "Henüz geçmedin; dereyi görmeden paçaları sıvama."
+      }
+    ],
+    "usageContext": "Plans and hopes.",
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "idiom-put-all-eggs",
+    "expression": "Don't put all your eggs in one basket",
+    "meaningTr": "Bütün yumurtaları aynı sepete koyma.",
+    "definitionEn": "Don't risk everything on one plan.",
+    "examples": [
+      {
+        "sentence": "Apply to two schools; don't put all eggs in one basket.",
+        "translation": "İki okula başvur; bütün yumurtaları aynı sepete koyma."
+      }
+    ],
+    "usageContext": "Advice.",
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "idiom-down-in-the-dumps",
+    "expression": "Down in the dumps",
+    "meaningTr": "Morali bozuk olmak, kafası bozuk olmak.",
+    "definitionEn": "Feeling sad and without energy.",
+    "examples": [
+      {
+        "sentence": "She's been down in the dumps since the match.",
+        "translation": "Maçtan beri morali bozuk."
+      }
+    ],
+    "usageContext": "Feelings.",
+    "level": "B1",
+    "source": ""
+  },
+  {
     "id": "idiom-down-to-earth",
     "expression": "Down to earth",
     "meaningTr": "Aklı başında, mütevazı, gerçekçi.",
@@ -146,6 +401,66 @@
       }
     ],
     "usageContext": "Describing people's character.",
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "idiom-draw-the-line",
+    "expression": "Draw the line",
+    "meaningTr": "Sınır çizmek, bir noktada dur demek.",
+    "definitionEn": "To set a limit you will not cross.",
+    "examples": [
+      {
+        "sentence": "Jokes are fine, but I draw the line at insults.",
+        "translation": "Şakalar tamam ama hakarette sınırı çizerim."
+      }
+    ],
+    "usageContext": "Limits and friendship.",
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "idiom-easy-does-it",
+    "expression": "Easy does it",
+    "meaningTr": "Yavaş ol, sakin sakin.",
+    "definitionEn": "Do something slowly and carefully.",
+    "examples": [
+      {
+        "sentence": "Easy does it with that heavy box!",
+        "translation": "O ağır kutuyla yavaş ol!"
+      }
+    ],
+    "usageContext": "Warnings and help.",
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "idiom-eat-humble-pie",
+    "expression": "Eat humble pie",
+    "meaningTr": "Hatasını kabul edip özür dilemek.",
+    "definitionEn": "To admit you were wrong.",
+    "examples": [
+      {
+        "sentence": "He was wrong, so he ate humble pie.",
+        "translation": "Haksızdı, o yüzden hatasını kabul etti."
+      }
+    ],
+    "usageContext": "Arguments.",
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "idiom-every-cloud",
+    "expression": "Every cloud has a silver lining",
+    "meaningTr": "Her şerde bir hayır vardır.",
+    "definitionEn": "Good can come from bad situations.",
+    "examples": [
+      {
+        "sentence": "Rain ruined the picnic, but every cloud has a silver lining — we played games at home.",
+        "translation": "Yağmur pikniği bozdu ama her şerde bir hayır var — evde oyun oynadık."
+      }
+    ],
+    "usageContext": "Comfort and hope.",
     "level": "B2",
     "source": ""
   },
@@ -165,6 +480,36 @@
     "source": ""
   },
   {
+    "id": "idiom-feel-under-weather-2",
+    "expression": "Fit as a fiddle",
+    "meaningTr": "Turp gibi olmak, çok sağlıklı olmak.",
+    "definitionEn": "Very healthy and strong.",
+    "examples": [
+      {
+        "sentence": "My grandpa is fit as a fiddle at eighty.",
+        "translation": "Dedem sekseninde turp gibi."
+      }
+    ],
+    "usageContext": "Health.",
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "idiom-foam-at-mouth",
+    "expression": "Foam at the mouth",
+    "meaningTr": "Küplere binmek, öfkeden köpürmek.",
+    "definitionEn": "To be extremely angry.",
+    "examples": [
+      {
+        "sentence": "The coach was foaming at the mouth after the defeat.",
+        "translation": "Antrenör yenilgiden sonra küplere bindi."
+      }
+    ],
+    "usageContext": "Anger.",
+    "level": "B2",
+    "source": ""
+  },
+  {
     "id": "idiom-get-cold-feet",
     "expression": "Get cold feet",
     "meaningTr": "Son anda korkup vazgeçmek.",
@@ -176,6 +521,51 @@
       }
     ],
     "usageContext": "Fears and difficult decisions.",
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "idiom-get-out-of-hand",
+    "expression": "Get out of hand",
+    "meaningTr": "Kontrolden çıkmak, çığırından çıkmak.",
+    "definitionEn": "To become uncontrolled.",
+    "examples": [
+      {
+        "sentence": "The party got out of hand.",
+        "translation": "Parti kontrolden çıktı."
+      }
+    ],
+    "usageContext": "Events and behavior.",
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "idiom-get-act-together",
+    "expression": "Get your act together",
+    "meaningTr": "Kendine çeki düzen vermek, toparlanmak.",
+    "definitionEn": "To organize yourself and behave well.",
+    "examples": [
+      {
+        "sentence": "Exams start Monday; get your act together!",
+        "translation": "Sınavlar pazartesi başlıyor; toparlan!"
+      }
+    ],
+    "usageContext": "Study and discipline.",
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "idiom-give-benefit-doubt",
+    "expression": "Give someone the benefit of the doubt",
+    "meaningTr": "İyi niyetle yaklaşmak, şüpheyi sanık lehine yorumlamak.",
+    "definitionEn": "To trust someone even when unsure.",
+    "examples": [
+      {
+        "sentence": "He's late, but give him the benefit of the doubt.",
+        "translation": "Geç kaldı ama iyi niyetle yaklaş."
+      }
+    ],
+    "usageContext": "Friendship and trust.",
     "level": "B2",
     "source": ""
   },
@@ -195,6 +585,36 @@
     "source": ""
   },
   {
+    "id": "idiom-go-bananas",
+    "expression": "Go bananas",
+    "meaningTr": "Çıldırmak (sevinçten ya da delilikten).",
+    "definitionEn": "To become very excited or crazy.",
+    "examples": [
+      {
+        "sentence": "Fans went bananas when the team scored.",
+        "translation": "Takım gol atınca taraftarlar çıldırdı."
+      }
+    ],
+    "usageContext": "Sports and fun.",
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "idiom-go-down-in-flames",
+    "expression": "Go down in flames",
+    "meaningTr": "Büyük bir başarısızlıkla sonuçlanmak.",
+    "definitionEn": "To fail spectacularly.",
+    "examples": [
+      {
+        "sentence": "Our plan went down in flames.",
+        "translation": "Planımız büyük bir başarısızlıkla sonuçlandı."
+      }
+    ],
+    "usageContext": "Failure.",
+    "level": "B2",
+    "source": ""
+  },
+  {
     "id": "idiom-go-the-extra-mile",
     "expression": "Go the extra mile",
     "meaningTr": "Fazladan çaba göstermek.",
@@ -206,6 +626,36 @@
       }
     ],
     "usageContext": "Work, study and kindness.",
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "idiom-hang-in-there",
+    "expression": "Hang in there",
+    "meaningTr": "Dayan, pes etme.",
+    "definitionEn": "Don't give up during hard times.",
+    "examples": [
+      {
+        "sentence": "Exam week is hard, but hang in there!",
+        "translation": "Sınav haftası zor ama dayan!"
+      }
+    ],
+    "usageContext": "Encouragement.",
+    "level": "A2",
+    "source": ""
+  },
+  {
+    "id": "idiom-head-over-heels",
+    "expression": "Head over heels",
+    "meaningTr": "Sırılsıklam âşık olmak.",
+    "definitionEn": "Deeply in love.",
+    "examples": [
+      {
+        "sentence": "They fell head over heels in high school.",
+        "translation": "Lisede sırılsıklam âşık oldular."
+      }
+    ],
+    "usageContext": "Love and relationships.",
     "level": "B1",
     "source": ""
   },
@@ -240,6 +690,51 @@
     "source": ""
   },
   {
+    "id": "idiom-hit-the-road",
+    "expression": "Hit the road",
+    "meaningTr": "Yola koyulmak.",
+    "definitionEn": "To start a journey.",
+    "examples": [
+      {
+        "sentence": "It's getting late; let's hit the road.",
+        "translation": "Geç oluyor; yola koyulalım."
+      }
+    ],
+    "usageContext": "Travel.",
+    "level": "A2",
+    "source": ""
+  },
+  {
+    "id": "idiom-hit-the-sack",
+    "expression": "Hit the sack",
+    "meaningTr": "Yatağa girip uyumak.",
+    "definitionEn": "To go to bed.",
+    "examples": [
+      {
+        "sentence": "I'm exhausted; I'll hit the sack.",
+        "translation": "Bitkinim; yatağa gidiyorum."
+      }
+    ],
+    "usageContext": "Daily life.",
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "idiom-in-a-nutshell",
+    "expression": "In a nutshell",
+    "meaningTr": "Kısacası, özetle.",
+    "definitionEn": "To explain briefly.",
+    "examples": [
+      {
+        "sentence": "In a nutshell, the film is about friendship.",
+        "translation": "Kısacası film dostluk hakkında."
+      }
+    ],
+    "usageContext": "Summaries.",
+    "level": "B1",
+    "source": ""
+  },
+  {
     "id": "idiom-in-hot-water",
     "expression": "In hot water",
     "meaningTr": "Başı dertte olmak.",
@@ -252,6 +747,36 @@
     ],
     "usageContext": "Problems and trouble.",
     "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "idiom-in-the-same-boat",
+    "expression": "In the same boat",
+    "meaningTr": "Aynı durumda olmak.",
+    "definitionEn": "Sharing the same difficult situation.",
+    "examples": [
+      {
+        "sentence": "We both failed math; we're in the same boat.",
+        "translation": "İkimiz de matematikten kaldık; aynı durumdayız."
+      }
+    ],
+    "usageContext": "Shared problems.",
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "idiom-itching-palm",
+    "expression": "Itchy feet",
+    "meaningTr": "Gezme aşkı, yerinde duramamak.",
+    "definitionEn": "A strong wish to travel.",
+    "examples": [
+      {
+        "sentence": "Spring gives me itchy feet.",
+        "translation": "Bahar gelince içimde gezme isteği uyanıyor."
+      }
+    ],
+    "usageContext": "Travel dreams.",
+    "level": "B2",
     "source": ""
   },
   {
@@ -270,6 +795,21 @@
     "source": ""
   },
   {
+    "id": "idiom-jump-to-conclusions",
+    "expression": "Jump to conclusions",
+    "meaningTr": "Peşin hüküm vermek.",
+    "definitionEn": "To decide too quickly without facts.",
+    "examples": [
+      {
+        "sentence": "Don't jump to conclusions; listen first.",
+        "translation": "Peşin hüküm verme; önce dinle."
+      }
+    ],
+    "usageContext": "Arguments.",
+    "level": "B1",
+    "source": ""
+  },
+  {
     "id": "idiom-keep-an-eye-on",
     "expression": "Keep an eye on",
     "meaningTr": "Göz kulak olmak, dikkatle izlemek.",
@@ -285,6 +825,66 @@
     "source": ""
   },
   {
+    "id": "idiom-keep-fingers-crossed",
+    "expression": "Keep your fingers crossed",
+    "meaningTr": "Şans dilemek, parmakları çaprazlamak.",
+    "definitionEn": "To hope for good luck.",
+    "examples": [
+      {
+        "sentence": "Keep your fingers crossed for my exam!",
+        "translation": "Sınavım için şans dile!"
+      }
+    ],
+    "usageContext": "Exams and wishes.",
+    "level": "A2",
+    "source": ""
+  },
+  {
+    "id": "idiom-kill-two-birds",
+    "expression": "Kill two birds with one stone",
+    "meaningTr": "Bir taşla iki kuş vurmak.",
+    "definitionEn": "Achieve two things with one action.",
+    "examples": [
+      {
+        "sentence": "Cycling to school kills two birds: sport and transport.",
+        "translation": "Okula bisikletle gitmek bir taşla iki kuş: spor ve ulaşım."
+      }
+    ],
+    "usageContext": "Smart solutions.",
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "idiom-learn-the-ropes",
+    "expression": "Learn the ropes",
+    "meaningTr": "İşin inceliklerini öğrenmek.",
+    "definitionEn": "To learn how to do a job.",
+    "examples": [
+      {
+        "sentence": "The new student is still learning the ropes.",
+        "translation": "Yeni öğrenci hâlâ ortama alışmaya çalışıyor."
+      }
+    ],
+    "usageContext": "New beginnings.",
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "idiom-let-sleeping-dogs",
+    "expression": "Let sleeping dogs lie",
+    "meaningTr": "Eski defterleri açmamak, kurcalamamak.",
+    "definitionEn": "Don't restart old arguments.",
+    "examples": [
+      {
+        "sentence": "Don't mention last year's fight; let sleeping dogs lie.",
+        "translation": "Geçen yılki kavgayı açma; eski defterleri karıştırma."
+      }
+    ],
+    "usageContext": "Peace and arguments.",
+    "level": "B2",
+    "source": ""
+  },
+  {
     "id": "idiom-let-the-cat-out-of-the-bag",
     "expression": "Let the cat out of the bag",
     "meaningTr": "Ağzından kaçırmak, sırrı açığa vurmak.",
@@ -296,6 +896,36 @@
       }
     ],
     "usageContext": "Secrets and surprises.",
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "idiom-light-at-end",
+    "expression": "Light at the end of the tunnel",
+    "meaningTr": "Tünelin ucundaki ışık, umut ışığı.",
+    "definitionEn": "Hope after a hard period.",
+    "examples": [
+      {
+        "sentence": "Finals end Friday; there's light at the end of the tunnel!",
+        "translation": "Finaller cuma bitiyor; tünelin ucunda ışık var!"
+      }
+    ],
+    "usageContext": "Hope.",
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "idiom-make-long-story-short",
+    "expression": "Make a long story short",
+    "meaningTr": "Uzun lafın kısası.",
+    "definitionEn": "To tell something briefly.",
+    "examples": [
+      {
+        "sentence": "To make a long story short, we missed the bus.",
+        "translation": "Uzun lafın kısası, otobüsü kaçırdık."
+      }
+    ],
+    "usageContext": "Storytelling.",
     "level": "B1",
     "source": ""
   },
@@ -315,6 +945,51 @@
     "source": ""
   },
   {
+    "id": "idiom-miss-boat-2",
+    "expression": "No pain, no gain",
+    "meaningTr": "Emeksiz yemek olmaz.",
+    "definitionEn": "You must work hard to succeed.",
+    "examples": [
+      {
+        "sentence": "Daily practice is boring, but no pain, no gain.",
+        "translation": "Her gün pratik sıkıcı ama emeksiz yemek olmaz."
+      }
+    ],
+    "usageContext": "Study and sports.",
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "idiom-not-playing-full-deck",
+    "expression": "Not playing with a full deck",
+    "meaningTr": "Tahtası eksik olmak (şaka yollu).",
+    "definitionEn": "Joking way to say someone is a bit foolish.",
+    "examples": [
+      {
+        "sentence": "He tried to dry his phone in the microwave — not playing with a full deck!",
+        "translation": "Telefonunu mikrodalgada kurutmaya çalıştı — tahtası eksik!"
+      }
+    ],
+    "usageContext": "Jokes.",
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "idiom-off-the-hook",
+    "expression": "Off the hook",
+    "meaningTr": "Paçayı kurtarmak; ayrıca harika olmak.",
+    "definitionEn": "Free from trouble; slang for amazing.",
+    "examples": [
+      {
+        "sentence": "The concert last night was off the hook!",
+        "translation": "Dün geceki konser müthişti!"
+      }
+    ],
+    "usageContext": "Fun and slang.",
+    "level": "B2",
+    "source": ""
+  },
+  {
     "id": "idiom-on-cloud-nine",
     "expression": "On cloud nine",
     "meaningTr": "Çok mutlu olmak, sevinçten havalara uçmak.",
@@ -327,6 +1002,21 @@
     ],
     "usageContext": "Feelings and good news.",
     "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "idiom-on-thin-ice",
+    "expression": "On thin ice",
+    "meaningTr": "İnce buz üstünde yürümek, riskli durumda olmak.",
+    "definitionEn": "In a risky situation.",
+    "examples": [
+      {
+        "sentence": "After three warnings, he's on thin ice.",
+        "translation": "Üç uyarıdan sonra ince buzda yürüyor."
+      }
+    ],
+    "usageContext": "Warnings.",
+    "level": "B2",
     "source": ""
   },
   {
@@ -360,6 +1050,21 @@
     "source": ""
   },
   {
+    "id": "idiom-out-of-hand-2",
+    "expression": "Out of thin air",
+    "meaningTr": "Yoktan var etmek, birdenbire ortaya çıkmak.",
+    "definitionEn": "Appearing suddenly from nothing.",
+    "examples": [
+      {
+        "sentence": "An old friend appeared out of thin air.",
+        "translation": "Eski bir arkadaş birdenbire ortaya çıktı."
+      }
+    ],
+    "usageContext": "Surprises.",
+    "level": "B2",
+    "source": ""
+  },
+  {
     "id": "idiom-over-the-moon",
     "expression": "Over the moon",
     "meaningTr": "Çok sevinçli olmak.",
@@ -372,6 +1077,36 @@
     ],
     "usageContext": "Feelings and good news.",
     "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "idiom-play-it-by-ear",
+    "expression": "Play it by ear",
+    "meaningTr": "Duruma göre doğaçlama yapmak.",
+    "definitionEn": "Decide what to do as things happen.",
+    "examples": [
+      {
+        "sentence": "No fixed plan; we'll play it by ear.",
+        "translation": "Sabit plan yok; duruma göre bakacağız."
+      }
+    ],
+    "usageContext": "Plans.",
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "idiom-raining-cats-2",
+    "expression": "Practice makes perfect",
+    "meaningTr": "Tekrar mükemmelleştirir.",
+    "definitionEn": "Doing something often makes you good at it.",
+    "examples": [
+      {
+        "sentence": "Read aloud daily; practice makes perfect.",
+        "translation": "Her gün sesli oku; tekrar mükemmelleştirir."
+      }
+    ],
+    "usageContext": "Study motto.",
+    "level": "A2",
     "source": ""
   },
   {
@@ -390,6 +1125,21 @@
     "source": ""
   },
   {
+    "id": "idiom-pull-yourself-together",
+    "expression": "Pull yourself together",
+    "meaningTr": "Kendine gel, toparlan.",
+    "definitionEn": "Calm down and behave normally.",
+    "examples": [
+      {
+        "sentence": "Pull yourself together; the exam starts in five minutes.",
+        "translation": "Kendine gel; sınav beş dakika sonra başlıyor."
+      }
+    ],
+    "usageContext": "Stress and exams.",
+    "level": "B1",
+    "source": ""
+  },
+  {
     "id": "idiom-rain-cats-and-dogs",
     "expression": "Rain cats and dogs",
     "meaningTr": "Bardaktan boşanırcasına yağmur yağmak.",
@@ -402,6 +1152,66 @@
     ],
     "usageContext": "Weather.",
     "level": "A2",
+    "source": ""
+  },
+  {
+    "id": "idiom-rain-on-parade",
+    "expression": "Rain on someone's parade",
+    "meaningTr": "Hevesini kursağında bırakmak.",
+    "definitionEn": "To spoil someone's joy.",
+    "examples": [
+      {
+        "sentence": "I hate to rain on your parade, but the trip is cancelled.",
+        "translation": "Hevesini kırmak istemem ama gezi iptal."
+      }
+    ],
+    "usageContext": "Bad news.",
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "idiom-read-between-lines",
+    "expression": "Read between the lines",
+    "meaningTr": "Satır aralarını okumak.",
+    "definitionEn": "Understand hidden meanings.",
+    "examples": [
+      {
+        "sentence": "Her smile said yes, but read between the lines — she was sad.",
+        "translation": "Gülümsemesi evet diyordu ama satır arasını oku — üzgündü."
+      }
+    ],
+    "usageContext": "Understanding people.",
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "idiom-saved-by-bell",
+    "expression": "Saved by the bell",
+    "meaningTr": "Son anda kurtulmak (zil sayesinde).",
+    "definitionEn": "Saved from trouble by an interruption.",
+    "examples": [
+      {
+        "sentence": "The teacher was about to ask me, but I was saved by the bell.",
+        "translation": "Öğretmen bana soracaktı ama zil beni kurtardı."
+      }
+    ],
+    "usageContext": "School humor.",
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "idiom-see-eye-2",
+    "expression": "Second nature",
+    "meaningTr": "İkinci doğa gibi olmak, alışkanlık hâline gelmek.",
+    "definitionEn": "Something you do automatically.",
+    "examples": [
+      {
+        "sentence": "After a month, locking the door became second nature.",
+        "translation": "Bir ay sonra kapıyı kilitlemek alışkanlık oldu."
+      }
+    ],
+    "usageContext": "Habits.",
+    "level": "B2",
     "source": ""
   },
   {
@@ -435,6 +1245,21 @@
     "source": ""
   },
   {
+    "id": "idiom-sit-tight",
+    "expression": "Sit tight",
+    "meaningTr": "Kıpırdamadan beklemek, sabretmek.",
+    "definitionEn": "Wait patiently without moving.",
+    "examples": [
+      {
+        "sentence": "Sit tight; the bus is coming.",
+        "translation": "Kıpırdama; otobüs geliyor."
+      }
+    ],
+    "usageContext": "Waiting.",
+    "level": "B1",
+    "source": ""
+  },
+  {
     "id": "idiom-speak-of-the-devil",
     "expression": "Speak of the devil",
     "meaningTr": "İyi insan lafının üstüne gelir.",
@@ -465,6 +1290,21 @@
     "source": ""
   },
   {
+    "id": "idiom-speak-devil-2",
+    "expression": "Steal someone's thunder",
+    "meaningTr": "Rol çalmak, başkasının önüne geçmek.",
+    "definitionEn": "Take attention away from someone.",
+    "examples": [
+      {
+        "sentence": "Announcing your news at her party stole her thunder.",
+        "translation": "Haberini onun partisinde açıklamak rol çaldı."
+      }
+    ],
+    "usageContext": "Attention and parties.",
+    "level": "B2",
+    "source": ""
+  },
+  {
     "id": "idiom-take-a-rain-check",
     "expression": "Take a rain check",
     "meaningTr": "Başka bir zamana ertelemek.",
@@ -491,6 +1331,51 @@
       }
     ],
     "usageContext": "Decisions and responsibilities.",
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "idiom-devil-in-details",
+    "expression": "The devil is in the details",
+    "meaningTr": "Şeytan ayrıntıda gizlidir.",
+    "definitionEn": "Small details can cause big problems.",
+    "examples": [
+      {
+        "sentence": "Check your essay twice; the devil is in the details.",
+        "translation": "Kompozisyonunu iki kez kontrol et; şeytan ayrıntıda gizlidir."
+      }
+    ],
+    "usageContext": "School work and projects.",
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "idiom-greener-grass",
+    "expression": "The grass is always greener on the other side",
+    "meaningTr": "Komşunun tavuğu komşuya kaz görünür.",
+    "definitionEn": "Others' lives always look better than yours.",
+    "examples": [
+      {
+        "sentence": "Don't envy that school; the grass is always greener.",
+        "translation": "O okulu kıskanma; komşunun tavuğu kaz görünür."
+      }
+    ],
+    "usageContext": "Envy and comparison.",
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "idiom-last-straw",
+    "expression": "The last straw",
+    "meaningTr": "Bardağı taşıran son damla.",
+    "definitionEn": "The final problem that makes you give up.",
+    "examples": [
+      {
+        "sentence": "Forgetting my birthday was the last straw.",
+        "translation": "Doğum günümü unutması bardağı taşıran son damlaydı."
+      }
+    ],
+    "usageContext": "Patience limits.",
     "level": "B2",
     "source": ""
   },

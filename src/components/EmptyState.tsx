@@ -12,7 +12,7 @@ export default function EmptyState({ message, onReset }: Props) {
       <p style={{ fontWeight: 700, color: 'var(--text)' }}>{message}</p>
       {onReset && (
         <button type="button" className="btn btn-secondary" onClick={onReset}>
-          Clear search and filters
+          Aramayı ve filtreleri temizle
         </button>
       )}
     </div>

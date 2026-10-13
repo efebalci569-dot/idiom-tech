@@ -4,11 +4,11 @@ import { Menu, X, BookOpenText } from 'lucide-react';
 import { SITE_NAME } from '../config/site';
 
 const LINKS = [
-  { to: '/', label: 'Home', end: true },
-  { to: '/vocabulary', label: 'Vocabulary', end: false },
-  { to: '/idioms', label: 'Idioms & Phrasal Verbs', end: false },
-  { to: '/favorites', label: 'Favorites', end: false },
-  { to: '/about', label: 'About', end: false },
+  { to: '/', label: 'Ana Sayfa', end: true },
+  { to: '/vocabulary', label: 'Kelimeler', end: false },
+  { to: '/idioms', label: 'Deyimler & Phrasal Verbs', end: false },
+  { to: '/favorites', label: 'Favorilerim', end: false },
+  { to: '/about', label: 'Hakkında', end: false },
 ];
 
 export default function Navbar() {
@@ -17,23 +17,26 @@ export default function Navbar() {
   return (
     <header className="navbar">
       <div className="container navbar-inner">
-        <NavLink to="/" className="logo" aria-label={`${SITE_NAME} home`}>
+        <NavLink to="/" className="logo" aria-label={`${SITE_NAME} ana sayfa`}>
           <span className="logo-mark" aria-hidden="true">
             <BookOpenText size={20} />
           </span>
-          {SITE_NAME}
+          <span>
+            {SITE_NAME}
+            <small>İnteraktif İngilizce Sözlük</small>
+          </span>
         </NavLink>
 
         <button
           className="menu-toggle"
           aria-expanded={open}
-          aria-label={open ? 'Close menu' : 'Open menu'}
+          aria-label={open ? 'Menüyü kapat' : 'Menüyü aç'}
           onClick={() => setOpen((v) => !v)}
         >
           {open ? <X size={22} /> : <Menu size={22} />}
         </button>
 
-        <nav aria-label="Main navigation">
+        <nav aria-label="Ana gezinti">
           <ul className={`nav-links${open ? ' open' : ''}`}>
             {LINKS.map((l) => (
               <li key={l.to}>

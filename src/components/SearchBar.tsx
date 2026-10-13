@@ -23,7 +23,7 @@ export default function SearchBar({ value, onChange, placeholder, label }: Props
         <button
           type="button"
           className="search-clear"
-          aria-label="Clear search"
+          aria-label="Aramayı temizle"
           onClick={() => onChange('')}
         >
           <X size={16} />

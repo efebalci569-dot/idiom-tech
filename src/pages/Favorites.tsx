@@ -29,7 +29,7 @@ export default function Favorites() {
   const [selection, setSelection] = useState<Selection | null>(null);
 
   useEffect(() => {
-    document.title = 'Favorites | Idiom-Tech';
+    document.title = 'Favorilerim | Idiom-Tech';
   }, []);
 
   const favWords = useMemo(
@@ -72,18 +72,21 @@ export default function Favorites() {
 
   if (favWords.length === 0 && favExpressions.length === 0) {
     return (
-      <div className="container" style={{ paddingTop: '2rem', paddingBottom: '1rem' }}>
-        <h1>Favorites</h1>
+      <div className="container" style={{ paddingBottom: '1rem' }}>
+        <div className="page-hero">
+          <div className="kicker">❤️ Kişisel listen</div>
+          <h1>Favori<span className="hl">lerim</span></h1>
+          <p>Henüz kart biriktirmemişsin. Kelime ya da deyim kartlarındaki <strong>kalbe dokun</strong>, onlar burada senin tekrar listen olarak dizilsin. Liste bu tarayıcıda saklanır.</p>
+        </div>
         <div className="empty" role="status" style={{ marginTop: '1.5rem' }}>
           <Heart size={36} aria-hidden="true" />
-          <p style={{ fontWeight: 700, color: 'var(--text)' }}>No favorites yet</p>
+          <p style={{ fontWeight: 800, color: 'var(--ink)', fontFamily: 'var(--font-serif)', fontSize: '1.2rem' }}>Henüz favori yok</p>
           <p>
-            Open any word or expression and press “Add to Favorites” to build your
-            personal study list. It stays saved in this browser.
+            Herhangi bir kelime ya da deyimi açıp “Favorilere Ekle”ye basman yeterli.
           </p>
           <div style={{ display: 'flex', gap: '0.75rem', justifyContent: 'center', flexWrap: 'wrap', marginTop: '1rem' }}>
-            <Link className="btn btn-primary" to="/vocabulary">Browse Words</Link>
-            <Link className="btn btn-secondary" to="/idioms">Browse Expressions</Link>
+            <Link className="btn btn-primary" to="/vocabulary">Kelimelere Göz At</Link>
+            <Link className="btn btn-secondary" to="/idioms">İfadelere Göz At</Link>
           </div>
         </div>
       </div>
@@ -91,17 +94,21 @@ export default function Favorites() {
   }
 
   return (
-    <div className="container" style={{ paddingTop: '2rem', paddingBottom: '1rem' }}>
-      <h1>Favorites</h1>
-      <p style={{ color: 'var(--muted)' }}>
-        Your saved words and expressions — stored in this browser, kept after refresh.
-      </p>
+    <div className="container" style={{ paddingBottom: '1rem' }}>
+      <div className="page-hero">
+        <div className="kicker">❤️ Kişisel listen</div>
+        <h1>Favori<span className="hl">lerim</span></h1>
+        <p>
+          Kaydettiğin kelimeler ve ifadeler burada — tarayıcıda saklanır, sayfayı kapatınca kaybolmaz.
+          Sınavdan önce bu sayfayı baştan sona tekrar et.
+        </p>
+      </div>
 
       <div className="list-layout" style={{ marginTop: '1.5rem' }}>
         <div>
           {favWords.length > 0 && (
-            <section className="fav-section" aria-label="Favorite words">
-              <h2 style={{ fontSize: '1.25rem' }}>Favorite Words ({favWords.length})</h2>
+            <section className="fav-section" aria-label="Favori kelimeler">
+              <h2 style={{ fontSize: '1.25rem' }}>Favori Kelimeler ({favWords.length})</h2>
               <div className="entry-grid" style={{ marginTop: '0.75rem' }}>
                 {favWords.map((w) => (
                   <EntryCard
@@ -118,14 +125,14 @@ export default function Favorites() {
           )}
 
           {favExpressions.length > 0 && (
-            <section className="fav-section" aria-label="Favorite expressions">
-              <h2 style={{ fontSize: '1.25rem' }}>Favorite Expressions ({favExpressions.length})</h2>
+            <section className="fav-section" aria-label="Favori ifadeler">
+              <h2 style={{ fontSize: '1.25rem' }}>Favori İfadeler ({favExpressions.length})</h2>
               <div className="entry-grid" style={{ marginTop: '0.75rem' }}>
                 {favExpressions.map((f) => (
                   <EntryCard
                     key={`${f.kind}:${f.entry.id}`}
                     title={f.title}
-                    badge={f.kind === 'idiom' ? 'Idiom' : 'Phrasal Verb'}
+                    badge={f.kind === 'idiom' ? 'Deyim' : 'Phrasal Verb'}
                     subtitle={f.kind === 'idiom' ? f.entry.meaningTr : f.entry.meanings.slice(0, 2).join(', ')}
                     selected={selection?.kind === f.kind && selection?.id === f.entry.id}
                     onSelect={() => pick(f.kind, f.entry.id)}

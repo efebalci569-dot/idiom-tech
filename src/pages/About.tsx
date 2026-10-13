@@ -3,74 +3,73 @@ import QRBlock from '../components/QRBlock';
 
 export default function About() {
   useEffect(() => {
-    document.title = 'About Project | Idiom-Tech';
+    document.title = 'Hakkında | Idiom-Tech';
   }, []);
 
   return (
-    <div className="container" style={{ paddingTop: '2rem', paddingBottom: '1rem' }}>
-      <h1>About Idiom-Tech</h1>
-      <p style={{ color: 'var(--muted)', maxWidth: '44rem' }}>
-        Idiom-Tech is an educational web platform designed to help high school
-        students explore English vocabulary, idioms, and phrasal verbs through
-        organized content, clear explanations, and interactive learning tools.
-      </p>
+    <div className="container" style={{ paddingBottom: '1rem' }}>
+      <div className="page-hero">
+        <div className="kicker">📖 Bu sözlük neden var?</div>
+        <h1>Idiom-Tech <span className="hl">Hakkında</span></h1>
+        <p>
+          Ders kitaplarında, dizilerde, şarkılarda karşına çıkan İngilizce kelimeler ve
+          kalıplar tek tek aratılınca öğrenme bölünüyor; liste ezberleyince de akılda kalmıyor.
+          Burası o yüzden var: <strong>tıkla, anlamı gör, örneği oku, favorine ekle</strong> — sayfadan ayrılmadan.
+        </p>
+      </div>
 
       <div style={{ marginTop: '1.5rem' }}>
-        <section className="prose-card" aria-label="Project purpose">
-          <h2>Project Purpose</h2>
+        <section className="prose-card" aria-label="Projenin amacı">
+          <h2>🎯 Projenin Amacı</h2>
           <p>
-            High school students often meet unfamiliar English words, phrasal verbs
-            and idioms in their coursebooks. Looking them up one by one is slow and
-            memorizing lists without context rarely works. Idiom-Tech was built to
-            solve this: click any entry to see its Turkish meaning, English
-            definition, an example sentence and its Turkish translation — without
-            leaving the page.
+            Lise İngilizcesinde en çok lazım olan kelimeleri, deyimleri ve phrasal verbleri
+            tek masada toplamak. Her kartta <strong>Türkçe anlam, İngilizce açıklama, örnek cümle
+            ve Türkçe çeviri</strong> var. Alfabetik sıra ve seviye filtreleriyle sözlük gibi
+            taranabiliyor; yandan açılan kartlarla okuma akışı hiç bölünmüyor.
           </p>
         </section>
 
-        <section className="prose-card" aria-label="Target audience">
-          <h2>Target Audience</h2>
+        <section className="prose-card" aria-label="Kimler için">
+          <h2>👩‍🎓 Kimler İçin?</h2>
           <p>
-            The platform is designed for high school students learning English, and
-            it is also useful for English teachers and anyone who wants to improve
-            their vocabulary in a structured way.
+            Önce lise öğrencileri için: sınavlara, konuşma pratiğine ve dizi-film izlerken
+            takılan yerlere birebir. Öğretmenler derste tahtaya yansıtıp örnek okutabilir;
+            kendi kendine çalışan herkes de seviyesine göre (A2–B2) ilerleyebilir.
           </p>
         </section>
 
-        <section className="prose-card" aria-label="Learning approach">
-          <h2>Learning Approach</h2>
+        <section className="prose-card" aria-label="Nasıl çalışılır">
+          <h2>📚 Nasıl Çalışılır?</h2>
           <ul>
-            <li><strong>Alphabetical order</strong> — entries are easy to scan, just like a dictionary.</li>
-            <li><strong>Side detail panels</strong> — meanings open next to the list, so reading flow is never broken.</li>
-            <li><strong>Example sentences</strong> — every entry shows real usage with a Turkish translation.</li>
-            <li><strong>Favorites</strong> — students build a personal review list saved in their browser.</li>
-            <li><strong>Separate categories</strong> — words, idioms and phrasal verbs each have their own section, search and A–Z filter.</li>
+            <li><strong>Alfabetik raf düzeni</strong> — gerçek sözlük gibi tara, kaybolma.</li>
+            <li><strong>Yan kartlar</strong> — anlam sağda açılır, listen kaybolmaz.</li>
+            <li><strong>Çevirili örnekler</strong> — her kartta gerçek hayattan bir cümle ve Türkçesi.</li>
+            <li><strong>Favorilerim</strong> — kalbe dokun, kişisel tekrar listen tarayıcında saklansın.</li>
+            <li><strong>Üç ayrı raf</strong> — kelimeler, deyimler ve phrasal verblerin araması ve filtresi ayrı.</li>
+            <li><strong>Günün kartları</strong> — ana sayfada her gün değişen kelime + deyim seni bekler.</li>
           </ul>
         </section>
 
-        <section className="prose-card" aria-label="Educational resources">
-          <h2>Educational Resources</h2>
+        <section className="prose-card" aria-label="İçerik notu">
+          <h2>✏️ İçerik Notu</h2>
           <p>
-            Definitions and example sentences on this site are written originally
-            for learners. Topics (Education, Environment, Health and others) describe
-            general themes only — they do not claim to match any specific official
-            curriculum unit. Teachers are encouraged to verify entries against the
-            coursebooks used in their own classes.
+            Tanımlar ve örnek cümleler öğrenenler için özel yazıldı. Konu etiketleri (eğitim, çevre,
+            sağlık...) genel temalardır; belirli bir müfredatın üniteleriyle birebir eşleşme iddiası taşımaz.
+            Öğretmenlerin kendi ders kitaplarıyla karşılaştırarak kullanması önerilir.
           </p>
         </section>
 
-        <section className="prose-card" aria-label="Project team">
-          <h2>Project Team</h2>
+        <section className="prose-card" aria-label="Proje ekibi">
+          <h2>👥 Proje Ekibi</h2>
           <p>
-            Team member and advisor names will be added here by the project owners.
+            Ekip ve danışman isimleri buraya proje sahipleri tarafından eklenecek.
           </p>
         </section>
 
-        <section className="prose-card" aria-label="Mobile access via QR code">
-          <h2>Open on Your Phone</h2>
+        <section className="prose-card" aria-label="Telefonla açma">
+          <h2>📱 Telefonundan Aç</h2>
           <p>
-            Visitors can open Idiom-Tech on their phones by scanning the QR code
-            below — handy during project exhibitions.
+            Sergide ya da sınıfta sunarken aşağıdaki karekodu okut, sözlük telefonunda açılsın.
           </p>
           <div className="qr-block">
             <QRBlock />

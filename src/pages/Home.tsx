@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, BookOpen, MessagesSquare, MousePointerClick, Sparkles } from 'lucide-react';
+import { ArrowRight, BookOpen, MessagesSquare, MousePointerClick, Sparkles, Quote, LibraryBig, PencilLine } from 'lucide-react';
 import { EntryCard } from '../components/EntryCard';
 import DetailPanel, { type DetailData } from '../components/DetailPanel';
 import { useFavoritesContext } from '../context/FavoritesContext';
@@ -17,13 +17,15 @@ const PHRASALS = phrasals as unknown as PhrasalVerbEntry[];
 const FEATURED_WORDS = ['Achieve', 'Benefit', 'Environment', 'Improve', 'Opportunity', 'Responsibility'];
 const FEATURED_IDIOMS = ['Break the ice', 'A piece of cake', 'Once in a blue moon', 'Under the weather'];
 
+const MARQUEE_WORDS = ['achieve • başarmak', 'opportunity • fırsat', 'break the ice • ortamı yumuşatmak', 'give up • vazgeçmek', 'curious • meraklı', 'once in a blue moon • kırk yılda bir', 'knowledge • bilgi', 'look after • bakmak'];
+
 export default function Home() {
   const { isFavorite, toggleFavorite } = useFavoritesContext();
   const [selWord, setSelWord] = useState<VocabularyEntry | null>(null);
   const [selIdiom, setSelIdiom] = useState<IdiomEntry | null>(null);
 
   useEffect(() => {
-    document.title = 'Idiom-Tech | Discover English. Understand More.';
+    document.title = 'Idiom-Tech | İngilizce Sözlük: Kelimeler, Deyimler, Phrasal Verbs';
   }, []);
 
   const featuredWords = useMemo(
@@ -35,91 +37,181 @@ export default function Home() {
     [],
   );
 
+  const wordOfDay = useMemo(() => {
+    const day = new Date().getDate();
+    return WORDS.length ? WORDS[day % WORDS.length] : null;
+  }, []);
+
+  const idiomOfDay = useMemo(() => {
+    const day = new Date().getDate();
+    return IDIOMS.length ? IDIOMS[(day * 7) % IDIOMS.length] : null;
+  }, []);
+
   const wordDetail: DetailData | null = selWord ? wordToDetail(selWord) : null;
   const idiomDetail: DetailData | null = selIdiom ? idiomToDetail(selIdiom) : null;
 
   return (
     <>
       <section className="hero">
-        <div className="container hero-grid">
-          <div>
-            <span className="hero-badge"><Sparkles size={15} /> Interactive English Learning</span>
-            <h1>Discover English. <span className="accent">Understand More.</span></h1>
-            <p className="hero-sub">
-              Explore English vocabulary, learn everyday idioms, and improve your
-              language skills with a simple and interactive learning experience.
-            </p>
-            <div className="hero-actions">
-              <Link className="btn btn-primary" to="/vocabulary">
-                Explore Vocabulary <ArrowRight size={18} />
-              </Link>
-              <Link className="btn btn-secondary" to="/idioms">
-                Discover Idioms <ArrowRight size={18} />
-              </Link>
-            </div>
-            <div className="hero-stats">
-              <div><strong>{WORDS.length}+</strong><span>Vocabulary words</span></div>
-              <div><strong>{IDIOMS.length}</strong><span>Idioms</span></div>
-              <div><strong>{PHRASALS.length}</strong><span>Phrasal verbs</span></div>
+        <div className="container">
+          <div className="hero-panel">
+            <div className="hero-grid">
+              <div>
+                <span className="hero-badge"><Sparkles size={15} /> Lise öğrencileri için interaktif sözlük</span>
+                <h1>İngilizceyi <span className="accent">kelime kelime</span> değil, hikâyesiyle öğren.</h1>
+                <p className="hero-sub">
+                  <strong>{WORDS.length}+ kelime, {IDIOMS.length} deyim, {PHRASALS.length} phrasal verb</strong> seni
+                  bekliyor. Her karta tıkla: <strong>Türkçe anlamı</strong>, İngilizce açıklaması, örnek cümle
+                  ve çevirisi hemen yanında açılsın. Ezber listesi değil, gerçek bir çalışma masası.
+                </p>
+                <div className="hero-actions">
+                  <Link className="btn btn-primary" to="/vocabulary">
+                    <BookOpen size={18} /> Kelimelere Göz At <ArrowRight size={18} />
+                  </Link>
+                  <Link className="btn btn-secondary" to="/idioms">
+                    <MessagesSquare size={18} /> Deyimleri Keşfet <ArrowRight size={18} />
+                  </Link>
+                </div>
+                <p className="hero-note">💡 İpucu: Beğendiğin kartları kalple favorilere ekle, sınavdan önce oradan tekrar et.</p>
+                <div className="hero-stats">
+                  <div className="stat-chip"><strong>{WORDS.length}+</strong><span>kelime kartı</span></div>
+                  <div className="stat-chip"><strong>{IDIOMS.length}</strong><span>günlük deyim</span></div>
+                  <div className="stat-chip"><strong>{PHRASALS.length}</strong><span>phrasal verb</span></div>
+                </div>
+              </div>
+
+              <div className="hero-visual" aria-hidden="true">
+                <div className="mini-card word-card">
+                  <span className="pin" />
+                  <div className="en">Achieve</div>
+                  <div className="tr">Başarmak, elde etmek</div>
+                  <span className="tag">Fiil · B1</span>
+                </div>
+                <div className="mini-card idiom-card">
+                  <span className="pin" />
+                  <div className="en">Break the ice</div>
+                  <div className="tr">Ortamı yumuşatmak</div>
+                  <span className="tag">Deyim · B1</span>
+                </div>
+                <div className="mini-card idiom-card">
+                  <span className="pin" />
+                  <div className="en">Give up</div>
+                  <div className="tr">Vazgeçmek</div>
+                  <span className="tag">Phrasal Verb · B1</span>
+                </div>
+                <div className="mini-card word-card">
+                  <span className="pin" />
+                  <div className="en">Opportunity</div>
+                  <div className="tr">Fırsat</div>
+                  <span className="tag">İsim · B1</span>
+                </div>
+              </div>
             </div>
           </div>
 
-          <div className="hero-visual" aria-hidden="true">
-            <div className="mini-card word-card">
-              <div className="en">Achieve</div>
-              <div className="tr">Başarmak</div>
-              <span className="tag">Verb · B1</span>
-            </div>
-            <div className="mini-card idiom-card">
-              <div className="en">Break the ice</div>
-              <div className="tr">Ortamı yumuşatmak</div>
-              <span className="tag">Idiom · B1</span>
-            </div>
-            <div className="mini-card idiom-card">
-              <div className="en">Give up</div>
-              <div className="tr">Vazgeçmek</div>
-              <span className="tag">Phrasal Verb · B1</span>
-            </div>
-            <div className="mini-card word-card">
-              <div className="en">Opportunity</div>
-              <div className="tr">Fırsat</div>
-              <span className="tag">Noun · B1</span>
-            </div>
+          <div className="marquee" aria-hidden="true">
+            <span>{MARQUEE_WORDS.map((w, i) => <span key={i}>{w} <span className="dot">✦</span></span>)}</span>
           </div>
         </div>
       </section>
 
       <section className="section">
         <div className="container">
+          <div className="kicker"><LibraryBig size={14} style={{ verticalAlign: -2 }} /> Raflar</div>
           <div className="category-grid">
-            <article className="category-card">
+            <article className="category-card green">
               <span className="category-icon"><BookOpen size={24} /></span>
-              <h3>English Vocabulary</h3>
-              <p>Discover essential English words, understand their meanings, and explore real-life examples.</p>
-              <Link className="btn btn-primary" to="/vocabulary" style={{ marginTop: '1rem' }}>
-                Explore Words <ArrowRight size={18} />
+              <h3>Kelime Rafı</h3>
+              <p>
+                Kitaplarda en çok karşına çıkan kelimeler; A2'den B2'ye seviyeli, konulu
+                (eğitim, çevre, sağlık, teknoloji...) ve hepsi <strong>Türkçe anlam + örnek cümle + çeviri</strong> ile.
+                Alfabeyle gez, seviyeye göre süz, karta tıkla öğren.
+              </p>
+              <div className="category-meta">
+                <span className="count-pill">📚 {WORDS.length} kart</span>
+                <span className="count-pill">🔤 A–Z dizili</span>
+                <span className="count-pill">🎯 A2–B2</span>
+              </div>
+              <Link className="btn btn-forest" to="/vocabulary" style={{ marginTop: '1rem' }}>
+                Kelimelere Git <ArrowRight size={18} />
               </Link>
             </article>
-            <article className="category-card">
+            <article className="category-card orange">
               <span className="category-icon"><MessagesSquare size={24} /></span>
-              <h3>Idioms &amp; Phrasal Verbs</h3>
-              <p>Learn common English expressions and phrasal verbs through clear explanations and practical examples.</p>
+              <h3>Deyim & Phrasal Rafı</h3>
+              <p>
+                Türkçeye birebir çevrilemeyen ama konuşmada her yerde olan ifadeler:
+                <em> "a piece of cake", "look after", "give up"...</em> Her deyimde
+                <strong> ne demek, nerede kullanılır, örnekte nasıl durur</strong> — hepsi tek kartta.
+              </p>
+              <div className="category-meta">
+                <span className="count-pill">💬 {IDIOMS.length} deyim</span>
+                <span className="count-pill">🧩 {PHRASALS.length} phrasal verb</span>
+              </div>
               <Link className="btn btn-primary" to="/idioms" style={{ marginTop: '1rem' }}>
-                Explore Expressions <ArrowRight size={18} />
+                İfadelere Git <ArrowRight size={18} />
               </Link>
             </article>
           </div>
+
+          <div className="quote-band">
+            <Quote size={26} style={{ flexShrink: 0, color: 'var(--brand)' }} />
+            <p style={{ margin: 0 }}>
+              <strong>Nasıl çalışmalısın?</strong> Günde 5 kart seç, önce Türkçe anlamı kapatıp
+              İngilizcesinden tahmin et, sonra örneği yüksek sesle oku. Favorilere eklediklerin
+              otomatik olarak <strong>Favorilerim</strong> sayfanda birikir — sınav haftası altın değerinde olur.
+            </p>
+          </div>
         </div>
       </section>
+
+      {(wordOfDay || idiomOfDay) && (
+        <section className="section">
+          <div className="container">
+            <div className="section-head">
+              <div>
+                <div className="kicker">✨ Bugünün masası</div>
+                <h2>Günün Kelimesi & Deyimi</h2>
+                <p>Her gün değişir — defterine yazmayı unutma.</p>
+              </div>
+            </div>
+            <div className="word-day">
+              {wordOfDay && (
+                <div className="word-day-card">
+                  <div className="label">📖 Günün Kelimesi</div>
+                  <div className="big">{wordOfDay.word}</div>
+                  <div className="mean">{wordOfDay.meanings.slice(0, 3).join(', ')}</div>
+                  {wordOfDay.examples[0] && (
+                    <div className="ex">“{wordOfDay.examples[0].sentence}” — {wordOfDay.examples[0].translation}</div>
+                  )}
+                  <Link className="btn btn-secondary" to="/vocabulary" style={{ marginTop: '0.9rem' }}>Sözlükte aç <ArrowRight size={16} /></Link>
+                </div>
+              )}
+              {idiomOfDay && (
+                <div className="word-day-card idiom">
+                  <div className="label">💬 Günün Deyimi</div>
+                  <div className="big" style={{ fontSize: '1.6rem' }}>{idiomOfDay.expression}</div>
+                  <div className="mean">{idiomOfDay.meaningTr}</div>
+                  {idiomOfDay.examples[0] && (
+                    <div className="ex">“{idiomOfDay.examples[0].sentence}” — {idiomOfDay.examples[0].translation}</div>
+                  )}
+                  <Link className="btn btn-secondary" to="/idioms" style={{ marginTop: '0.9rem' }}>Deyimlerde aç <ArrowRight size={16} /></Link>
+                </div>
+              )}
+            </div>
+          </div>
+        </section>
+      )}
 
       <section className="section">
         <div className="container">
           <div className="section-head">
             <div>
-              <h2>Featured Words</h2>
-              <p>Start learning right here — click a word to see its meaning.</p>
+              <div className="kicker">Öne çıkanlar</div>
+              <h2>Önce Bunlara Bak</h2>
+              <p>Karta tıkla, sağdaki sözlük kartında anlamı açılsın.</p>
             </div>
-            <Link to="/vocabulary">View all words <ArrowRight size={16} /></Link>
+            <Link to="/vocabulary">Tüm kelimeler <ArrowRight size={16} /></Link>
           </div>
           <div className="list-layout">
             <div className="entry-grid">
@@ -148,10 +240,11 @@ export default function Home() {
         <div className="container">
           <div className="section-head">
             <div>
-              <h2>Featured Idioms</h2>
-              <p>Everyday expressions with real meanings — click an idiom to explore it.</p>
+              <div className="kicker">Konuşma dili</div>
+              <h2>Günün Deyimleri</h2>
+              <p>Filmlerde, dizilerde, sınavın konuşma bölümünde lazım olacaklar.</p>
             </div>
-            <Link to="/idioms">View all expressions <ArrowRight size={16} /></Link>
+            <Link to="/idioms">Tüm ifadeler <ArrowRight size={16} /></Link>
           </div>
           <div className="list-layout">
             <div className="entry-grid">
@@ -159,7 +252,7 @@ export default function Home() {
                 <EntryCard
                   key={e.id}
                   title={e.expression}
-                  badge="Idiom"
+                  badge="Deyim"
                   subtitle={e.meaningTr}
                   selected={selIdiom?.id === e.id}
                   onSelect={() => setSelIdiom((prev) => (prev?.id === e.id ? null : e))}
@@ -176,29 +269,30 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section">
+      <section className="section" style={{ paddingBottom: '1rem' }}>
         <div className="container">
           <div className="section-head">
             <div>
-              <h2>How It Works</h2>
-              <p>Three simple steps to start learning.</p>
+              <div className="kicker"><PencilLine size={14} style={{ verticalAlign: -2 }} /> 3 adımda</div>
+              <h2>Nasıl Çalışılır?</h2>
+              <p>Kaybolmak yok — yöntem basit.</p>
             </div>
           </div>
           <div className="steps">
             <div className="step">
               <span className="step-num">1</span>
-              <h3><MousePointerClick size={18} style={{ verticalAlign: -3 }} /> Explore</h3>
-              <p>Browse English words and expressions.</p>
+              <h3><MousePointerClick size={18} style={{ verticalAlign: -3 }} /> Keşfet</h3>
+              <p>Kelime, deyim, phrasal verb raflarına gir. Arama çubuğuna Türkçe ya da İngilizce yaz, A–Z harflerle gez, seviyene göre filtrele.</p>
             </div>
             <div className="step">
               <span className="step-num">2</span>
-              <h3>Understand</h3>
-              <p>Click on an entry to discover its meaning and examples.</p>
+              <h3>Anlamı yakala</h3>
+              <p>Karta tıkla: Türkçe karşılığı, İngilizce açıklaması, eş-zıt anlamlıları ve <strong>çevirili örnek cümle</strong> hemen yanında açılır.</p>
             </div>
             <div className="step">
               <span className="step-num">3</span>
-              <h3>Learn</h3>
-              <p>Review expressions and improve your vocabulary.</p>
+              <h3>Biriktir & tekrar et</h3>
+              <p>İşe yarayanları kalple favorilere at. Sınavdan bir gece önce <strong>Favorilerim</strong> sayfan senin özel tekrar listen olur.</p>
             </div>
           </div>
         </div>

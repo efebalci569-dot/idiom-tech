@@ -15,7 +15,7 @@ export default function AlphabetFilter({ selected, onSelect, label }: Props) {
         aria-pressed={selected === 'ALL'}
         onClick={() => onSelect('ALL')}
       >
-        All
+        Tümü
       </button>
       {ALPHABET.map((letter) => (
         <button
@@ -23,7 +23,7 @@ export default function AlphabetFilter({ selected, onSelect, label }: Props) {
           type="button"
           className={`alpha-btn${selected === letter ? ' active' : ''}`}
           aria-pressed={selected === letter}
-          aria-label={`Words starting with ${letter}`}
+          aria-label={`${letter} ile başlayanlar`}
           onClick={() => onSelect(letter)}
         >
           {letter}

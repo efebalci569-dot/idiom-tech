@@ -12,33 +12,35 @@ export default function Footer() {
               <span className="logo-mark" aria-hidden="true">
                 <BookOpenText size={20} />
               </span>
-              {SITE_NAME}
+              <span>
+                {SITE_NAME}
+                <small>İnteraktif İngilizce Sözlük</small>
+              </span>
             </span>
             <p style={{ marginTop: '0.75rem' }}>
-              {SITE_NAME} is an educational web platform developed for learning
-              purposes. It helps high school students explore English vocabulary,
-              idioms and phrasal verbs through organized content and clear examples.
+              {SITE_NAME}, lise öğrencileri için hazırlanmış sıcak bir çalışma masasıdır:
+              kelimeler, deyimler ve phrasal verbler; Türkçe anlamları, örnek cümleleri
+              ve çevirileriyle tek tık uzağında. Ezber listesi değil, kütüphane ruhlu bir sözlük.
             </p>
           </div>
           <div>
-            <h4>Explore</h4>
+            <h4>Keşfet</h4>
             <ul>
-              <li><Link to="/">Home</Link></li>
-              <li><Link to="/vocabulary">Vocabulary</Link></li>
-              <li><Link to="/idioms">Idioms &amp; Phrasal Verbs</Link></li>
+              <li><Link to="/">Ana Sayfa</Link></li>
+              <li><Link to="/vocabulary">Kelimeler</Link></li>
+              <li><Link to="/idioms">Deyimler &amp; Phrasal Verbs</Link></li>
             </ul>
           </div>
           <div>
-            <h4>Project</h4>
+            <h4>Proje</h4>
             <ul>
-              <li><Link to="/favorites">Favorites</Link></li>
-              <li><Link to="/about">About Project</Link></li>
+              <li><Link to="/favorites">Favorilerim</Link></li>
+              <li><Link to="/about">Hakkında</Link></li>
             </ul>
           </div>
         </div>
         <div className="footer-bottom">
-          {SITE_NAME} — built as an educational technology project. Content is
-          prepared for study purposes.
+          {SITE_NAME} — eğitim amaçlı hazırlanmıştır. Her gün 5 kart, her hafta 1 tekrar. 📖
         </div>
       </div>
     </footer>

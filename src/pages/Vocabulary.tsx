@@ -28,7 +28,7 @@ export default function Vocabulary() {
   const [selectedId, setSelectedId] = useState<string | null>(null);
 
   useEffect(() => {
-    document.title = 'English Vocabulary | Idiom-Tech';
+    document.title = 'İngilizce Kelimeler | Idiom-Tech';
   }, []);
 
   const levels = useMemo(() => uniqueSorted(WORDS.map((w) => w.level)), []);
@@ -54,74 +54,80 @@ export default function Vocabulary() {
     filters.partOfSpeech !== 'ALL';
 
   return (
-    <div className="container" style={{ paddingTop: '2rem', paddingBottom: '1rem' }}>
-      <h1>English Vocabulary</h1>
-      <p style={{ color: 'var(--muted)', maxWidth: '40rem' }}>
-        Explore English words, understand their meanings, and learn how to use them in context.
-      </p>
+    <div className="container" style={{ paddingBottom: '1rem' }}>
+      <div className="page-hero">
+        <div className="kicker">📚 Kelime rafı</div>
+        <h1>İngilizce <span className="hl">Kelimeler</span></h1>
+        <p>
+          Ders kitaplarında, dizilerde ve sınavlarda en çok çıkan <strong>{WORDS.length} kelime</strong> burada.
+          Aramaya Türkçe ya da İngilizce yazabilirsin — örneğin <em>"fırsat"</em> yazınca <em>opportunity</em> gelir.
+          Harflere dokun, seviyeni seç, karta tıkla: anlamı, örneği ve çevirisi yanında açılsın.
+        </p>
+        <span className="tip">💡 Her kartta: Türkçe anlam + İngilizce açıklama + çevirili örnek cümle var</span>
+      </div>
 
       <div style={{ marginTop: '1.25rem' }}>
         <SearchBar
           value={filters.query}
           onChange={(v) => set('query', v)}
-          placeholder="Search for a word..."
-          label="Search vocabulary by English word or Turkish meaning"
+          placeholder="Kelime ara... (ör. brave, fırsat, environment)"
+          label="İngilizce kelime veya Türkçe anlam ile ara"
         />
       </div>
 
       <AlphabetFilter
         selected={filters.letter}
         onSelect={(letter) => set('letter', letter)}
-        label="Filter vocabulary by first letter"
+        label="Kelimeleri baş harfine göre süz"
       />
 
-      <div className="filter-row" role="group" aria-label="Additional vocabulary filters">
+      <div className="filter-row" role="group" aria-label="Kelime filtreleri">
         <select
           className="filter-select"
-          aria-label="Filter by level"
+          aria-label="Seviyeye göre süz"
           value={filters.level}
           onChange={(e) => set('level', e.target.value)}
         >
-          <option value="ALL">All levels</option>
+          <option value="ALL">Tüm seviyeler</option>
           {levels.map((l) => (
             <option key={l} value={l}>{l}</option>
           ))}
         </select>
         <select
           className="filter-select"
-          aria-label="Filter by topic"
+          aria-label="Konuya göre süz"
           value={filters.topic}
           onChange={(e) => set('topic', e.target.value)}
         >
-          <option value="ALL">All topics</option>
+          <option value="ALL">Tüm konular</option>
           {topics.map((t) => (
             <option key={t} value={t}>{t}</option>
           ))}
         </select>
         <select
           className="filter-select"
-          aria-label="Filter by part of speech"
+          aria-label="Türe göre süz"
           value={filters.partOfSpeech}
           onChange={(e) => set('partOfSpeech', e.target.value)}
         >
-          <option value="ALL">All word types</option>
+          <option value="ALL">Tüm türler</option>
           {parts.map((p) => (
             <option key={p} value={p} style={{ textTransform: 'capitalize' }}>{p}</option>
           ))}
         </select>
         {isFiltered && (
           <button type="button" className="btn btn-secondary" style={{ minHeight: 44 }} onClick={reset}>
-            Clear filters
+            Filtreleri temizle
           </button>
         )}
       </div>
 
       <p className="result-count" role="status">
-        {results.length} word{results.length === 1 ? '' : 's'} found
+        {results.length} kelime bulundu
       </p>
 
       {results.length === 0 ? (
-        <EmptyState message="No words found. Try another search." onReset={reset} />
+        <EmptyState message="Sonuç bulunamadı. Başka bir kelime dene." onReset={reset} />
       ) : (
         <div className="list-layout">
           <div className="entry-grid">
