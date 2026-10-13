@@ -37,7 +37,7 @@ export default function DetailPanel({ data, isFavorite, onToggleFavorite, onClos
 
   if (!data) {
     return (
-      <aside className="detail" aria-label="Detaylar">
+      <aside className="detail is-empty" aria-label="Detaylar">
         <div className="detail-empty">
           <p style={{ fontWeight: 800, fontFamily: 'var(--font-serif)', fontSize: '1.2rem', color: 'var(--ink)' }}>Bir kart seç 📖</p>
           <p>Listeden herhangi bir kelimeye ya da deyime tıkla; Türkçe anlamı, İngilizce açıklaması ve örnek cümleler burada kâğıt kart gibi açılsın.</p>
