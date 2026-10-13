@@ -1,0 +1,2126 @@
+[
+  {
+    "id": "word-achieve",
+    "word": "Achieve",
+    "partOfSpeech": ["verb"],
+    "meanings": ["Başarmak", "Elde etmek"],
+    "definition": "To succeed in doing something through effort or skill.",
+    "examples": [
+      {
+        "sentence": "She worked hard to achieve her goals.",
+        "translation": "Hedeflerine ulaşmak için çok çalıştı."
+      }
+    ],
+    "synonyms": ["Accomplish", "Attain"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Education", "Personal Development"],
+    "source": ""
+  },
+  {
+    "id": "word-advantage",
+    "word": "Advantage",
+    "partOfSpeech": ["noun"],
+    "meanings": ["Avantaj", "Üstünlük"],
+    "definition": "A condition or fact that helps you succeed.",
+    "examples": [
+      {
+        "sentence": "Knowing English is a great advantage when you travel.",
+        "translation": "Seyahat ederken İngilizce bilmek büyük bir avantajdır."
+      }
+    ],
+    "synonyms": ["Benefit", "Asset"],
+    "antonyms": ["Disadvantage"],
+    "level": "B1",
+    "topics": ["Education", "Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-allow",
+    "word": "Allow",
+    "partOfSpeech": ["verb"],
+    "meanings": ["İzin vermek", "Olanak tanımak"],
+    "definition": "To give permission for something to happen.",
+    "examples": [
+      {
+        "sentence": "Our teacher allows us to use dictionaries in class.",
+        "translation": "Öğretmenimiz sınıfta sözlük kullanmamıza izin veriyor."
+      }
+    ],
+    "synonyms": ["Permit", "Let"],
+    "antonyms": ["Forbid"],
+    "level": "A2",
+    "topics": ["Education", "Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-ancient",
+    "word": "Ancient",
+    "partOfSpeech": ["adjective"],
+    "meanings": ["Antik", "Çok eski"],
+    "definition": "Very old; belonging to a time long ago.",
+    "examples": [
+      {
+        "sentence": "They visited an ancient castle on their school trip.",
+        "translation": "Okul gezisinde antik bir kaleyi ziyaret ettiler."
+      }
+    ],
+    "synonyms": ["Old", "Antique"],
+    "antonyms": ["Modern"],
+    "level": "B1",
+    "topics": ["Tourism", "Education"],
+    "source": ""
+  },
+  {
+    "id": "word-appearance",
+    "word": "Appearance",
+    "partOfSpeech": ["noun"],
+    "meanings": ["Dış görünüş", "Görünüm"],
+    "definition": "The way someone or something looks.",
+    "examples": [
+      {
+        "sentence": "First impressions are often based on appearance.",
+        "translation": "İlk izlenimler genellikle dış görünüşe dayanır."
+      }
+    ],
+    "synonyms": ["Look"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Daily Life", "Friendship"],
+    "source": ""
+  },
+  {
+    "id": "word-argue",
+    "word": "Argue",
+    "partOfSpeech": ["verb"],
+    "meanings": ["Tartışmak"],
+    "definition": "To disagree with someone in words, often angrily.",
+    "examples": [
+      {
+        "sentence": "They often argue about which football team is better.",
+        "translation": "Hangi futbol takımının daha iyi olduğu konusunda sık sık tartışıyorlar."
+      }
+    ],
+    "synonyms": ["Debate", "Dispute"],
+    "antonyms": ["Agree"],
+    "level": "B1",
+    "topics": ["Daily Life", "Friendship"],
+    "source": ""
+  },
+  {
+    "id": "word-arrange",
+    "word": "Arrange",
+    "partOfSpeech": ["verb"],
+    "meanings": ["Düzenlemek", "Ayarlamak"],
+    "definition": "To plan or organize something.",
+    "examples": [
+      {
+        "sentence": "We arranged a meeting with our English teacher.",
+        "translation": "İngilizce öğretmenimizle bir toplantı ayarladık."
+      }
+    ],
+    "synonyms": ["Organize", "Plan"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Education", "Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-assist",
+    "word": "Assist",
+    "partOfSpeech": ["verb"],
+    "meanings": ["Yardım etmek"],
+    "definition": "To help someone do something.",
+    "examples": [
+      {
+        "sentence": "Volunteers assist elderly people in our neighborhood.",
+        "translation": "Gönüllüler mahallemizde yaşlı insanlara yardım ediyor."
+      }
+    ],
+    "synonyms": ["Help", "Aid"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Daily Life", "Health"],
+    "source": ""
+  },
+  {
+    "id": "word-attention",
+    "word": "Attention",
+    "partOfSpeech": ["noun"],
+    "meanings": ["Dikkat", "İlgi"],
+    "definition": "Careful thought or interest in something.",
+    "examples": [
+      {
+        "sentence": "The students listened with great attention.",
+        "translation": "Öğrenciler büyük bir dikkatle dinledi."
+      }
+    ],
+    "synonyms": ["Focus", "Concentration"],
+    "antonyms": [],
+    "level": "A2",
+    "topics": ["Education"],
+    "source": ""
+  },
+  {
+    "id": "word-avoid",
+    "word": "Avoid",
+    "partOfSpeech": ["verb"],
+    "meanings": ["Kaçınmak", "Uzak durmak"],
+    "definition": "To stay away from something.",
+    "examples": [
+      {
+        "sentence": "He avoids junk food to stay healthy.",
+        "translation": "Sağlıklı kalmak için abur cuburdan uzak duruyor."
+      }
+    ],
+    "synonyms": ["Escape", "Evade"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Health", "Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-basic",
+    "word": "Basic",
+    "partOfSpeech": ["adjective"],
+    "meanings": ["Temel", "Basit"],
+    "definition": "Forming the main or simplest part of something.",
+    "examples": [
+      {
+        "sentence": "This course teaches the basic rules of English grammar.",
+        "translation": "Bu kurs İngilizce dil bilgisinin temel kurallarını öğretiyor."
+      }
+    ],
+    "synonyms": ["Fundamental", "Essential"],
+    "antonyms": ["Advanced"],
+    "level": "A2",
+    "topics": ["Education"],
+    "source": ""
+  },
+  {
+    "id": "word-behave",
+    "word": "Behave",
+    "partOfSpeech": ["verb"],
+    "meanings": ["Davranmak"],
+    "definition": "To act in a particular way.",
+    "examples": [
+      {
+        "sentence": "Children should behave politely at school.",
+        "translation": "Çocuklar okulda kibarca davranmalı."
+      }
+    ],
+    "synonyms": ["Act"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Education", "Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-benefit",
+    "word": "Benefit",
+    "partOfSpeech": ["noun", "verb"],
+    "meanings": ["Fayda, yarar", "Fayda sağlamak"],
+    "definition": "Something good or helpful that you get from an action.",
+    "examples": [
+      {
+        "sentence": "Regular exercise has many health benefits.",
+        "translation": "Düzenli egzersizin sağlığa birçok faydası vardır."
+      }
+    ],
+    "synonyms": ["Advantage", "Gain"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Health", "Personal Development"],
+    "source": ""
+  },
+  {
+    "id": "word-borrow",
+    "word": "Borrow",
+    "partOfSpeech": ["verb"],
+    "meanings": ["Ödünç almak"],
+    "definition": "To take something from someone and return it later.",
+    "examples": [
+      {
+        "sentence": "Can I borrow your pen for a minute?",
+        "translation": "Kalemini bir dakikalığına ödünç alabilir miyim?"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": ["Lend"],
+    "level": "A2",
+    "topics": ["Daily Life", "Education"],
+    "source": ""
+  },
+  {
+    "id": "word-brave",
+    "word": "Brave",
+    "partOfSpeech": ["adjective"],
+    "meanings": ["Cesur"],
+    "definition": "Not afraid of danger or pain.",
+    "examples": [
+      {
+        "sentence": "The brave firefighter saved the child from the fire.",
+        "translation": "Cesur itfaiyeci çocuğu yangından kurtardı."
+      }
+    ],
+    "synonyms": ["Courageous", "Bold"],
+    "antonyms": ["Cowardly"],
+    "level": "A2",
+    "topics": ["Daily Life", "Personal Development"],
+    "source": ""
+  },
+  {
+    "id": "word-calm",
+    "word": "Calm",
+    "partOfSpeech": ["adjective", "verb"],
+    "meanings": ["Sakin", "Sakinleştirmek"],
+    "definition": "Peaceful and without worry.",
+    "examples": [
+      {
+        "sentence": "Stay calm and focus on the exam questions.",
+        "translation": "Sakin ol ve sınav sorularına odaklan."
+      }
+    ],
+    "synonyms": ["Peaceful", "Relaxed"],
+    "antonyms": ["Anxious"],
+    "level": "A2",
+    "topics": ["Health", "Education"],
+    "source": ""
+  },
+  {
+    "id": "word-cause",
+    "word": "Cause",
+    "partOfSpeech": ["noun", "verb"],
+    "meanings": ["Neden, sebep", "Neden olmak"],
+    "definition": "Something that makes an event happen.",
+    "examples": [
+      {
+        "sentence": "Smoking is a major cause of lung disease.",
+        "translation": "Sigara, akciğer hastalığının önemli bir nedenidir."
+      }
+    ],
+    "synonyms": ["Reason"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Health", "Science"],
+    "source": ""
+  },
+  {
+    "id": "word-celebrate",
+    "word": "Celebrate",
+    "partOfSpeech": ["verb"],
+    "meanings": ["Kutlamak"],
+    "definition": "To do something special to show that an event is important.",
+    "examples": [
+      {
+        "sentence": "We celebrated our graduation with a small party.",
+        "translation": "Mezuniyetimizi küçük bir partiyle kutladık."
+      }
+    ],
+    "synonyms": ["Commemorate"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Daily Life", "Friendship"],
+    "source": ""
+  },
+  {
+    "id": "word-century",
+    "word": "Century",
+    "partOfSpeech": ["noun"],
+    "meanings": ["Yüzyıl"],
+    "definition": "A period of one hundred years.",
+    "examples": [
+      {
+        "sentence": "The museum has objects from the nineteenth century.",
+        "translation": "Müzede on dokuzuncu yüzyıldan kalma eşyalar var."
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Education", "Tourism"],
+    "source": ""
+  },
+  {
+    "id": "word-certain",
+    "word": "Certain",
+    "partOfSpeech": ["adjective"],
+    "meanings": ["Emin", "Belirli"],
+    "definition": "Sure about something; or particular but not named.",
+    "examples": [
+      {
+        "sentence": "Are you certain about the answer?",
+        "translation": "Cevaptan emin misin?"
+      }
+    ],
+    "synonyms": ["Sure", "Confident"],
+    "antonyms": ["Uncertain"],
+    "level": "A2",
+    "topics": ["Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-challenge",
+    "word": "Challenge",
+    "partOfSpeech": ["noun", "verb"],
+    "meanings": ["Zorluk", "Meydan okumak"],
+    "definition": "Something difficult that tests your ability.",
+    "examples": [
+      {
+        "sentence": "Learning a new language is a real challenge.",
+        "translation": "Yeni bir dil öğrenmek gerçek bir zorluktur."
+      }
+    ],
+    "synonyms": ["Difficulty", "Test"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Education", "Personal Development"],
+    "source": ""
+  },
+  {
+    "id": "word-choice",
+    "word": "Choice",
+    "partOfSpeech": ["noun"],
+    "meanings": ["Seçim", "Tercih"],
+    "definition": "Something you choose from different possibilities.",
+    "examples": [
+      {
+        "sentence": "She made the right choice by studying abroad.",
+        "translation": "Yurt dışında okuyarak doğru seçimi yaptı."
+      }
+    ],
+    "synonyms": ["Option", "Decision"],
+    "antonyms": [],
+    "level": "A2",
+    "topics": ["Daily Life", "Education"],
+    "source": ""
+  },
+  {
+    "id": "word-climate",
+    "word": "Climate",
+    "partOfSpeech": ["noun"],
+    "meanings": ["İklim"],
+    "definition": "The usual weather conditions of an area over a long time.",
+    "examples": [
+      {
+        "sentence": "The Mediterranean climate is warm and sunny.",
+        "translation": "Akdeniz iklimi sıcak ve güneşlidir."
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Environment", "Science"],
+    "source": ""
+  },
+  {
+    "id": "word-daily",
+    "word": "Daily",
+    "partOfSpeech": ["adjective", "adverb"],
+    "meanings": ["Günlük"],
+    "definition": "Happening every day.",
+    "examples": [
+      {
+        "sentence": "Reading for twenty minutes daily improves your vocabulary.",
+        "translation": "Her gün yirmi dakika okumak kelime bilgini geliştirir."
+      }
+    ],
+    "synonyms": ["Everyday"],
+    "antonyms": [],
+    "level": "A2",
+    "topics": ["Education", "Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-damage",
+    "word": "Damage",
+    "partOfSpeech": ["noun", "verb"],
+    "meanings": ["Zarar, hasar", "Zarar vermek"],
+    "definition": "Physical harm that makes something less valuable or useful.",
+    "examples": [
+      {
+        "sentence": "The storm damaged many houses in the village.",
+        "translation": "Fırtına köyde birçok eve zarar verdi."
+      }
+    ],
+    "synonyms": ["Harm", "Injury"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Environment", "Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-debate",
+    "word": "Debate",
+    "partOfSpeech": ["noun", "verb"],
+    "meanings": ["Tartışma, münazara", "Tartışmak"],
+    "definition": "A formal discussion in which people express different opinions.",
+    "examples": [
+      {
+        "sentence": "Our class held a debate on social media.",
+        "translation": "Sınıfımız sosyal medya hakkında bir münazara düzenledi."
+      }
+    ],
+    "synonyms": ["Discussion", "Argument"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Education"],
+    "source": ""
+  },
+  {
+    "id": "word-decide",
+    "word": "Decide",
+    "partOfSpeech": ["verb"],
+    "meanings": ["Karar vermek"],
+    "definition": "To choose something after thinking about it.",
+    "examples": [
+      {
+        "sentence": "They decided to spend their holiday in Antalya.",
+        "translation": "Tatillerini Antalya'da geçirmeye karar verdiler."
+      }
+    ],
+    "synonyms": ["Choose", "Resolve"],
+    "antonyms": [],
+    "level": "A2",
+    "topics": ["Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-depend",
+    "word": "Depend",
+    "partOfSpeech": ["verb"],
+    "meanings": ["Bağlı olmak", "Güvenmek"],
+    "definition": "To need something or someone in order to exist or succeed.",
+    "examples": [
+      {
+        "sentence": "Plants depend on sunlight to grow.",
+        "translation": "Bitkiler büyümek için güneş ışığına ihtiyaç duyar."
+      }
+    ],
+    "synonyms": ["Rely"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Science", "Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-describe",
+    "word": "Describe",
+    "partOfSpeech": ["verb"],
+    "meanings": ["Betimlemek", "Tarif etmek"],
+    "definition": "To say what someone or something is like.",
+    "examples": [
+      {
+        "sentence": "Can you describe your best friend?",
+        "translation": "En iyi arkadaşını tarif edebilir misin?"
+      }
+    ],
+    "synonyms": ["Explain", "Portray"],
+    "antonyms": [],
+    "level": "A2",
+    "topics": ["Education", "Friendship"],
+    "source": ""
+  },
+  {
+    "id": "word-develop",
+    "word": "Develop",
+    "partOfSpeech": ["verb"],
+    "meanings": ["Geliştirmek", "Gelişmek"],
+    "definition": "To grow gradually or become better.",
+    "examples": [
+      {
+        "sentence": "This app helps students develop their reading skills.",
+        "translation": "Bu uygulama öğrencilerin okuma becerilerini geliştirmesine yardımcı oluyor."
+      }
+    ],
+    "synonyms": ["Improve", "Grow"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Education", "Technology"],
+    "source": ""
+  },
+  {
+    "id": "word-earn",
+    "word": "Earn",
+    "partOfSpeech": ["verb"],
+    "meanings": ["Kazanmak (para)", "Hak etmek"],
+    "definition": "To receive money for work you do.",
+    "examples": [
+      {
+        "sentence": "He earns extra money by tutoring younger students.",
+        "translation": "Küçük öğrencilere özel ders vererek ekstra para kazanıyor."
+      }
+    ],
+    "synonyms": ["Gain", "Make"],
+    "antonyms": [],
+    "level": "A2",
+    "topics": ["Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-education",
+    "word": "Education",
+    "partOfSpeech": ["noun"],
+    "meanings": ["Eğitim"],
+    "definition": "Learning or teaching in a school or college.",
+    "examples": [
+      {
+        "sentence": "Education is the key to a better future.",
+        "translation": "Eğitim, daha iyi bir geleceğin anahtarıdır."
+      }
+    ],
+    "synonyms": ["Schooling", "Learning"],
+    "antonyms": [],
+    "level": "A2",
+    "topics": ["Education"],
+    "source": ""
+  },
+  {
+    "id": "word-effect",
+    "word": "Effect",
+    "partOfSpeech": ["noun"],
+    "meanings": ["Etki", "Sonuç"],
+    "definition": "A change caused by an action.",
+    "examples": [
+      {
+        "sentence": "Too much screen time has negative effects on sleep.",
+        "translation": "Aşırı ekran süresi uykuyu olumsuz etkiler."
+      }
+    ],
+    "synonyms": ["Result", "Impact"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Health", "Science"],
+    "source": ""
+  },
+  {
+    "id": "word-effort",
+    "word": "Effort",
+    "partOfSpeech": ["noun"],
+    "meanings": ["Çaba", "Gayret"],
+    "definition": "Physical or mental energy used to do something.",
+    "examples": [
+      {
+        "sentence": "With enough effort, anyone can learn English.",
+        "translation": "Yeterli çabayla herkes İngilizce öğrenebilir."
+      }
+    ],
+    "synonyms": ["Attempt", "Endeavor"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Education", "Personal Development"],
+    "source": ""
+  },
+  {
+    "id": "word-encourage",
+    "word": "Encourage",
+    "partOfSpeech": ["verb"],
+    "meanings": ["Cesaretlendirmek", "Teşvik etmek"],
+    "definition": "To give someone confidence to do something.",
+    "examples": [
+      {
+        "sentence": "Our coach encourages us to never give up.",
+        "translation": "Antrenörümüz bizi asla vazgeçmemeye teşvik ediyor."
+      }
+    ],
+    "synonyms": ["Motivate", "Support"],
+    "antonyms": ["Discourage"],
+    "level": "B1",
+    "topics": ["Education", "Sports"],
+    "source": ""
+  },
+  {
+    "id": "word-energy",
+    "word": "Energy",
+    "partOfSpeech": ["noun"],
+    "meanings": ["Enerji"],
+    "definition": "The power to do work or be active.",
+    "examples": [
+      {
+        "sentence": "We should use renewable energy sources like solar power.",
+        "translation": "Güneş enerjisi gibi yenilenebilir enerji kaynakları kullanmalıyız."
+      }
+    ],
+    "synonyms": ["Power"],
+    "antonyms": [],
+    "level": "A2",
+    "topics": ["Environment", "Science"],
+    "source": ""
+  },
+  {
+    "id": "word-environment",
+    "word": "Environment",
+    "partOfSpeech": ["noun"],
+    "meanings": ["Çevre"],
+    "definition": "The natural world around us, including air, water and land.",
+    "examples": [
+      {
+        "sentence": "We must protect the environment for future generations.",
+        "translation": "Gelecek nesiller için çevreyi korumalıyız."
+      }
+    ],
+    "synonyms": ["Nature", "Surroundings"],
+    "antonyms": [],
+    "level": "A2",
+    "topics": ["Environment", "Science"],
+    "source": ""
+  },
+  {
+    "id": "word-escape",
+    "word": "Escape",
+    "partOfSpeech": ["verb", "noun"],
+    "meanings": ["Kaçmak", "Kaçış"],
+    "definition": "To get away from a place or situation.",
+    "examples": [
+      {
+        "sentence": "They escaped from the crowded city for the weekend.",
+        "translation": "Hafta sonu için kalabalık şehirden kaçtılar."
+      }
+    ],
+    "synonyms": ["Flee", "Get away"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Daily Life", "Tourism"],
+    "source": ""
+  },
+  {
+    "id": "word-experience",
+    "word": "Experience",
+    "partOfSpeech": ["noun", "verb"],
+    "meanings": ["Deneyim, tecrübe", "Deneyimlemek"],
+    "definition": "Knowledge or skill gained from doing something.",
+    "examples": [
+      {
+        "sentence": "Traveling alone was an unforgettable experience.",
+        "translation": "Yalnız seyahat etmek unutulmaz bir deneyimdi."
+      }
+    ],
+    "synonyms": ["Adventure", "Encounter"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Tourism", "Personal Development"],
+    "source": ""
+  },
+  {
+    "id": "word-failure",
+    "word": "Failure",
+    "partOfSpeech": ["noun"],
+    "meanings": ["Başarısızlık"],
+    "definition": "Lack of success in doing something.",
+    "examples": [
+      {
+        "sentence": "Don't be afraid of failure; it teaches valuable lessons.",
+        "translation": "Başarısızlıktan korkma; o değerli dersler öğretir."
+      }
+    ],
+    "synonyms": ["Defeat"],
+    "antonyms": ["Success"],
+    "level": "B1",
+    "topics": ["Personal Development", "Education"],
+    "source": ""
+  },
+  {
+    "id": "word-fair",
+    "word": "Fair",
+    "partOfSpeech": ["adjective"],
+    "meanings": ["Adil"],
+    "definition": "Treating everyone equally.",
+    "examples": [
+      {
+        "sentence": "The referee made a fair decision.",
+        "translation": "Hakem adil bir karar verdi."
+      }
+    ],
+    "synonyms": ["Just", "Equal"],
+    "antonyms": ["Unfair"],
+    "level": "A2",
+    "topics": ["Sports", "Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-familiar",
+    "word": "Familiar",
+    "partOfSpeech": ["adjective"],
+    "meanings": ["Tanıdık", "Aşina"],
+    "definition": "Known to you because you have seen it before.",
+    "examples": [
+      {
+        "sentence": "This song sounds familiar to me.",
+        "translation": "Bu şarkı bana tanıdık geliyor."
+      }
+    ],
+    "synonyms": ["Known", "Recognizable"],
+    "antonyms": ["Unfamiliar"],
+    "level": "B1",
+    "topics": ["Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-fashion",
+    "word": "Fashion",
+    "partOfSpeech": ["noun"],
+    "meanings": ["Moda"],
+    "definition": "Popular styles of clothes at a particular time.",
+    "examples": [
+      {
+        "sentence": "Istanbul hosts an international fashion week every year.",
+        "translation": "İstanbul her yıl uluslararası bir moda haftasına ev sahipliği yapıyor."
+      }
+    ],
+    "synonyms": ["Trend", "Style"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-favor",
+    "word": "Favor",
+    "partOfSpeech": ["noun", "verb"],
+    "meanings": ["İyilik", "İyilik yapmak"],
+    "definition": "A kind act you do for someone.",
+    "examples": [
+      {
+        "sentence": "Could you do me a favor and lend me your notes?",
+        "translation": "Bana bir iyilik yapıp notlarını ödünç verir misin?"
+      }
+    ],
+    "synonyms": ["Kindness"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Friendship", "Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-fear",
+    "word": "Fear",
+    "partOfSpeech": ["noun", "verb"],
+    "meanings": ["Korku", "Korkmak"],
+    "definition": "An unpleasant feeling caused by danger.",
+    "examples": [
+      {
+        "sentence": "She overcame her fear of speaking in public.",
+        "translation": "Topluluk önünde konuşma korkusunu yendi."
+      }
+    ],
+    "synonyms": ["Fright", "Dread"],
+    "antonyms": ["Courage"],
+    "level": "A2",
+    "topics": ["Health", "Personal Development"],
+    "source": ""
+  },
+  {
+    "id": "word-gain",
+    "word": "Gain",
+    "partOfSpeech": ["verb", "noun"],
+    "meanings": ["Kazanmak, elde etmek", "Kazanç"],
+    "definition": "To get something useful or valuable.",
+    "examples": [
+      {
+        "sentence": "You can gain a lot from reading books.",
+        "translation": "Kitap okuyarak çok şey kazanabilirsin."
+      }
+    ],
+    "synonyms": ["Acquire", "Earn"],
+    "antonyms": ["Lose"],
+    "level": "B1",
+    "topics": ["Education", "Personal Development"],
+    "source": ""
+  },
+  {
+    "id": "word-gather",
+    "word": "Gather",
+    "partOfSpeech": ["verb"],
+    "meanings": ["Toplamak", "Bir araya gelmek"],
+    "definition": "To come together or bring things together.",
+    "examples": [
+      {
+        "sentence": "The family gathered for dinner on Sunday.",
+        "translation": "Aile pazar günü akşam yemeği için bir araya geldi."
+      }
+    ],
+    "synonyms": ["Collect", "Assemble"],
+    "antonyms": ["Scatter"],
+    "level": "B1",
+    "topics": ["Friendship", "Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-generous",
+    "word": "Generous",
+    "partOfSpeech": ["adjective"],
+    "meanings": ["Cömert"],
+    "definition": "Willing to give more than expected.",
+    "examples": [
+      {
+        "sentence": "Our neighbors are very generous people.",
+        "translation": "Komşularımız çok cömert insanlar."
+      }
+    ],
+    "synonyms": ["Kind", "Giving"],
+    "antonyms": ["Selfish", "Mean"],
+    "level": "B1",
+    "topics": ["Friendship", "Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-gentle",
+    "word": "Gentle",
+    "partOfSpeech": ["adjective"],
+    "meanings": ["Nazik", "Yumuşak"],
+    "definition": "Kind and calm, not rough.",
+    "examples": [
+      {
+        "sentence": "The gentle teacher never raises her voice.",
+        "translation": "Nazik öğretmenimiz asla sesini yükseltmez."
+      }
+    ],
+    "synonyms": ["Kind", "Mild"],
+    "antonyms": ["Rough", "Harsh"],
+    "level": "B1",
+    "topics": ["Friendship", "Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-gift",
+    "word": "Gift",
+    "partOfSpeech": ["noun"],
+    "meanings": ["Hediye", "Yetenek"],
+    "definition": "Something you give to someone willingly.",
+    "examples": [
+      {
+        "sentence": "She received many gifts on her birthday.",
+        "translation": "Doğum gününde birçok hediye aldı."
+      }
+    ],
+    "synonyms": ["Present"],
+    "antonyms": [],
+    "level": "A2",
+    "topics": ["Friendship", "Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-habit",
+    "word": "Habit",
+    "partOfSpeech": ["noun"],
+    "meanings": ["Alışkanlık"],
+    "definition": "Something you do regularly, often without thinking.",
+    "examples": [
+      {
+        "sentence": "Reading before bed is a healthy habit.",
+        "translation": "Yatmadan önce okumak sağlıklı bir alışkanlıktır."
+      }
+    ],
+    "synonyms": ["Custom", "Routine"],
+    "antonyms": [],
+    "level": "A2",
+    "topics": ["Health", "Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-harm",
+    "word": "Harm",
+    "partOfSpeech": ["noun", "verb"],
+    "meanings": ["Zarar", "Zarar vermek"],
+    "definition": "Damage or injury to a person or thing.",
+    "examples": [
+      {
+        "sentence": "Smoking harms your lungs.",
+        "translation": "Sigara akciğerlerine zarar verir."
+      }
+    ],
+    "synonyms": ["Damage", "Hurt"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Health", "Environment"],
+    "source": ""
+  },
+  {
+    "id": "word-honest",
+    "word": "Honest",
+    "partOfSpeech": ["adjective"],
+    "meanings": ["Dürüst"],
+    "definition": "Truthful and sincere.",
+    "examples": [
+      {
+        "sentence": "An honest person always tells the truth.",
+        "translation": "Dürüst bir insan her zaman doğruyu söyler."
+      }
+    ],
+    "synonyms": ["Truthful", "Sincere"],
+    "antonyms": ["Dishonest"],
+    "level": "A2",
+    "topics": ["Friendship", "Personal Development"],
+    "source": ""
+  },
+  {
+    "id": "word-hope",
+    "word": "Hope",
+    "partOfSpeech": ["noun", "verb"],
+    "meanings": ["Umut", "Ummak"],
+    "definition": "A feeling that something good will happen.",
+    "examples": [
+      {
+        "sentence": "We hope to visit London next summer.",
+        "translation": "Gelecek yaz Londra'yı ziyaret etmeyi umuyoruz."
+      }
+    ],
+    "synonyms": ["Wish", "Expectation"],
+    "antonyms": [],
+    "level": "A2",
+    "topics": ["Personal Development", "Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-huge",
+    "word": "Huge",
+    "partOfSpeech": ["adjective"],
+    "meanings": ["Kocaman", "Devasa"],
+    "definition": "Extremely large in size or amount.",
+    "examples": [
+      {
+        "sentence": "They live in a huge apartment near the park.",
+        "translation": "Parkın yanında kocaman bir dairede yaşıyorlar."
+      }
+    ],
+    "synonyms": ["Enormous", "Massive"],
+    "antonyms": ["Tiny"],
+    "level": "A2",
+    "topics": ["Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-ignore",
+    "word": "Ignore",
+    "partOfSpeech": ["verb"],
+    "meanings": ["Görmezden gelmek"],
+    "definition": "To pay no attention to something.",
+    "examples": [
+      {
+        "sentence": "You should ignore negative comments and keep going.",
+        "translation": "Olumsuz yorumları görmezden gelip devam etmelisin."
+      }
+    ],
+    "synonyms": ["Neglect", "Overlook"],
+    "antonyms": ["Notice"],
+    "level": "B1",
+    "topics": ["Daily Life", "Personal Development"],
+    "source": ""
+  },
+  {
+    "id": "word-imagine",
+    "word": "Imagine",
+    "partOfSpeech": ["verb"],
+    "meanings": ["Hayal etmek"],
+    "definition": "To form a picture in your mind.",
+    "examples": [
+      {
+        "sentence": "Imagine a world without the internet.",
+        "translation": "İnternetsiz bir dünya hayal et."
+      }
+    ],
+    "synonyms": ["Visualize", "Picture"],
+    "antonyms": [],
+    "level": "A2",
+    "topics": ["Daily Life", "Personal Development"],
+    "source": ""
+  },
+  {
+    "id": "word-improve",
+    "word": "Improve",
+    "partOfSpeech": ["verb"],
+    "meanings": ["Geliştirmek", "İyileştirmek"],
+    "definition": "To make something better.",
+    "examples": [
+      {
+        "sentence": "Practicing every day will improve your speaking.",
+        "translation": "Her gün pratik yapmak konuşmanı geliştirecek."
+      }
+    ],
+    "synonyms": ["Enhance", "Develop"],
+    "antonyms": ["Worsen"],
+    "level": "A2",
+    "topics": ["Education", "Personal Development"],
+    "source": ""
+  },
+  {
+    "id": "word-include",
+    "word": "Include",
+    "partOfSpeech": ["verb"],
+    "meanings": ["İçermek", "Dahil etmek"],
+    "definition": "To contain something as a part.",
+    "examples": [
+      {
+        "sentence": "The price includes breakfast and dinner.",
+        "translation": "Fiyata kahvaltı ve akşam yemeği dahil."
+      }
+    ],
+    "synonyms": ["Contain", "Involve"],
+    "antonyms": ["Exclude"],
+    "level": "A2",
+    "topics": ["Daily Life", "Tourism"],
+    "source": ""
+  },
+  {
+    "id": "word-independent",
+    "word": "Independent",
+    "partOfSpeech": ["adjective"],
+    "meanings": ["Bağımsız"],
+    "definition": "Free from outside control; able to do things alone.",
+    "examples": [
+      {
+        "sentence": "University life makes students more independent.",
+        "translation": "Üniversite hayatı öğrencileri daha bağımsız yapar."
+      }
+    ],
+    "synonyms": ["Free", "Self-reliant"],
+    "antonyms": ["Dependent"],
+    "level": "B1",
+    "topics": ["Education", "Personal Development"],
+    "source": ""
+  },
+  {
+    "id": "word-join",
+    "word": "Join",
+    "partOfSpeech": ["verb"],
+    "meanings": ["Katılmak"],
+    "definition": "To become a member of a group.",
+    "examples": [
+      {
+        "sentence": "She joined the school basketball team.",
+        "translation": "Okul basketbol takımına katıldı."
+      }
+    ],
+    "synonyms": ["Enter", "Participate"],
+    "antonyms": ["Leave"],
+    "level": "A2",
+    "topics": ["Sports", "Education"],
+    "source": ""
+  },
+  {
+    "id": "word-journey",
+    "word": "Journey",
+    "partOfSpeech": ["noun"],
+    "meanings": ["Yolculuk", "Seyahat"],
+    "definition": "Traveling from one place to another.",
+    "examples": [
+      {
+        "sentence": "The journey from Ankara to Izmir takes six hours by bus.",
+        "translation": "Ankara'dan İzmir'e yolculuk otobüsle altı saat sürer."
+      }
+    ],
+    "synonyms": ["Trip", "Travel"],
+    "antonyms": [],
+    "level": "A2",
+    "topics": ["Tourism"],
+    "source": ""
+  },
+  {
+    "id": "word-keen",
+    "word": "Keen",
+    "partOfSpeech": ["adjective"],
+    "meanings": ["Hevesli", "Meraklı"],
+    "definition": "Very interested or eager.",
+    "examples": [
+      {
+        "sentence": "He is keen on learning Spanish.",
+        "translation": "İspanyolca öğrenmeye çok hevesli."
+      }
+    ],
+    "synonyms": ["Eager", "Enthusiastic"],
+    "antonyms": [],
+    "level": "B2",
+    "topics": ["Education", "Personal Development"],
+    "source": ""
+  },
+  {
+    "id": "word-knowledge",
+    "word": "Knowledge",
+    "partOfSpeech": ["noun"],
+    "meanings": ["Bilgi"],
+    "definition": "Information and understanding about a subject.",
+    "examples": [
+      {
+        "sentence": "Reading books increases your general knowledge.",
+        "translation": "Kitap okumak genel kültürünü artırır."
+      }
+    ],
+    "synonyms": ["Understanding", "Awareness"],
+    "antonyms": ["Ignorance"],
+    "level": "B1",
+    "topics": ["Education", "Science"],
+    "source": ""
+  },
+  {
+    "id": "word-lack",
+    "word": "Lack",
+    "partOfSpeech": ["noun", "verb"],
+    "meanings": ["Eksiklik", "Yoksun olmak"],
+    "definition": "Not having enough of something.",
+    "examples": [
+      {
+        "sentence": "Lack of sleep makes it hard to concentrate.",
+        "translation": "Uyku eksikliği odaklanmayı zorlaştırır."
+      }
+    ],
+    "synonyms": ["Shortage", "Absence"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Health", "Education"],
+    "source": ""
+  },
+  {
+    "id": "word-landscape",
+    "word": "Landscape",
+    "partOfSpeech": ["noun"],
+    "meanings": ["Manzara", "Doğal görünüm"],
+    "definition": "The natural appearance of an area of land.",
+    "examples": [
+      {
+        "sentence": "The Black Sea region has a beautiful green landscape.",
+        "translation": "Karadeniz Bölgesi güzel yeşil bir manzaraya sahiptir."
+      }
+    ],
+    "synonyms": ["Scenery", "View"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Environment", "Tourism"],
+    "source": ""
+  },
+  {
+    "id": "word-laughter",
+    "word": "Laughter",
+    "partOfSpeech": ["noun"],
+    "meanings": ["Kahkaha", "Gülme"],
+    "definition": "The sound of laughing.",
+    "examples": [
+      {
+        "sentence": "Their laughter filled the whole classroom.",
+        "translation": "Kahkahaları tüm sınıfı doldurdu."
+      }
+    ],
+    "synonyms": ["Giggle"],
+    "antonyms": [],
+    "level": "A2",
+    "topics": ["Friendship", "Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-launch",
+    "word": "Launch",
+    "partOfSpeech": ["verb"],
+    "meanings": ["Başlatmak", "Fırlatmak"],
+    "definition": "To start something new.",
+    "examples": [
+      {
+        "sentence": "The school launched a new reading project.",
+        "translation": "Okul yeni bir okuma projesi başlattı."
+      }
+    ],
+    "synonyms": ["Start", "Introduce"],
+    "antonyms": [],
+    "level": "B2",
+    "topics": ["Education", "Technology"],
+    "source": ""
+  },
+  {
+    "id": "word-lend",
+    "word": "Lend",
+    "partOfSpeech": ["verb"],
+    "meanings": ["Ödünç vermek"],
+    "definition": "To give something to someone for a short time.",
+    "examples": [
+      {
+        "sentence": "I lent my bike to my cousin.",
+        "translation": "Bisikletimi kuzenime ödünç verdim."
+      }
+    ],
+    "synonyms": ["Loan"],
+    "antonyms": ["Borrow"],
+    "level": "A2",
+    "topics": ["Daily Life", "Friendship"],
+    "source": ""
+  },
+  {
+    "id": "word-manage",
+    "word": "Manage",
+    "partOfSpeech": ["verb"],
+    "meanings": ["Başarmak", "Yönetmek"],
+    "definition": "To succeed in doing something difficult.",
+    "examples": [
+      {
+        "sentence": "She managed to finish the project on time.",
+        "translation": "Projeyi zamanında bitirmeyi başardı."
+      }
+    ],
+    "synonyms": ["Achieve", "Handle"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Education", "Personal Development"],
+    "source": ""
+  },
+  {
+    "id": "word-manner",
+    "word": "Manner",
+    "partOfSpeech": ["noun"],
+    "meanings": ["Davranış biçimi", "Tavır"],
+    "definition": "The way something is done.",
+    "examples": [
+      {
+        "sentence": "He answered in a polite manner.",
+        "translation": "Kibar bir şekilde cevap verdi."
+      }
+    ],
+    "synonyms": ["Way", "Behavior"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Daily Life", "Friendship"],
+    "source": ""
+  },
+  {
+    "id": "word-marry",
+    "word": "Marry",
+    "partOfSpeech": ["verb"],
+    "meanings": ["Evlenmek"],
+    "definition": "To become husband and wife.",
+    "examples": [
+      {
+        "sentence": "They married in a small ceremony.",
+        "translation": "Küçük bir törenle evlendiler."
+      }
+    ],
+    "synonyms": ["Wed"],
+    "antonyms": ["Divorce"],
+    "level": "A2",
+    "topics": ["Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-match",
+    "word": "Match",
+    "partOfSpeech": ["noun", "verb"],
+    "meanings": ["Maç", "Uymak, eşleşmek"],
+    "definition": "A competition between teams or players.",
+    "examples": [
+      {
+        "sentence": "Our team won the football match 2-0.",
+        "translation": "Takımımız futbol maçını 2-0 kazandı."
+      }
+    ],
+    "synonyms": ["Game"],
+    "antonyms": [],
+    "level": "A2",
+    "topics": ["Sports"],
+    "source": ""
+  },
+  {
+    "id": "word-matter",
+    "word": "Matter",
+    "partOfSpeech": ["noun", "verb"],
+    "meanings": ["Mesele, konu", "Önemli olmak"],
+    "definition": "Something you are talking about; to be important.",
+    "examples": [
+      {
+        "sentence": "It doesn't matter if you make mistakes.",
+        "translation": "Hata yapman önemli değil."
+      }
+    ],
+    "synonyms": ["Issue", "Subject"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-narrow",
+    "word": "Narrow",
+    "partOfSpeech": ["adjective"],
+    "meanings": ["Dar"],
+    "definition": "Small in width.",
+    "examples": [
+      {
+        "sentence": "The bus passed through a narrow street.",
+        "translation": "Otobüs dar bir sokaktan geçti."
+      }
+    ],
+    "synonyms": ["Tight", "Slim"],
+    "antonyms": ["Wide"],
+    "level": "A2",
+    "topics": ["Daily Life", "Tourism"],
+    "source": ""
+  },
+  {
+    "id": "word-nation",
+    "word": "Nation",
+    "partOfSpeech": ["noun"],
+    "meanings": ["Ulus", "Millet"],
+    "definition": "A large group of people living in one country.",
+    "examples": [
+      {
+        "sentence": "Athletes from many nations joined the games.",
+        "translation": "Birçok ulustan sporcu oyunlara katıldı."
+      }
+    ],
+    "synonyms": ["Country", "State"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Education", "Sports"],
+    "source": ""
+  },
+  {
+    "id": "word-native",
+    "word": "Native",
+    "partOfSpeech": ["adjective", "noun"],
+    "meanings": ["Yerli", "Ana dil (native language)"],
+    "definition": "Belonging to a place by birth.",
+    "examples": [
+      {
+        "sentence": "Turkish is my native language.",
+        "translation": "Türkçe benim ana dilim."
+      }
+    ],
+    "synonyms": ["Local", "Indigenous"],
+    "antonyms": ["Foreign"],
+    "level": "B1",
+    "topics": ["Education"],
+    "source": ""
+  },
+  {
+    "id": "word-obey",
+    "word": "Obey",
+    "partOfSpeech": ["verb"],
+    "meanings": ["Uymak", "İtaat etmek"],
+    "definition": "To follow rules or orders.",
+    "examples": [
+      {
+        "sentence": "Drivers must obey traffic rules.",
+        "translation": "Sürücüler trafik kurallarına uymak zorunda."
+      }
+    ],
+    "synonyms": ["Follow", "Comply"],
+    "antonyms": ["Disobey"],
+    "level": "B1",
+    "topics": ["Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-observe",
+    "word": "Observe",
+    "partOfSpeech": ["verb"],
+    "meanings": ["Gözlemlemek"],
+    "definition": "To watch something carefully.",
+    "examples": [
+      {
+        "sentence": "Students observed birds in the school garden.",
+        "translation": "Öğrenciler okul bahçesinde kuşları gözlemledi."
+      }
+    ],
+    "synonyms": ["Watch", "Notice"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Science", "Education"],
+    "source": ""
+  },
+  {
+    "id": "word-obtain",
+    "word": "Obtain",
+    "partOfSpeech": ["verb"],
+    "meanings": ["Elde etmek"],
+    "definition": "To get something, especially with effort.",
+    "examples": [
+      {
+        "sentence": "He obtained a scholarship to study abroad.",
+        "translation": "Yurt dışında okumak için burs elde etti."
+      }
+    ],
+    "synonyms": ["Gain", "Acquire"],
+    "antonyms": [],
+    "level": "B2",
+    "topics": ["Education"],
+    "source": ""
+  },
+  {
+    "id": "word-offer",
+    "word": "Offer",
+    "partOfSpeech": ["verb", "noun"],
+    "meanings": ["Teklif etmek", "Teklif"],
+    "definition": "To say you will give or do something.",
+    "examples": [
+      {
+        "sentence": "She offered to help me with math.",
+        "translation": "Bana matematik konusunda yardım etmeyi teklif etti."
+      }
+    ],
+    "synonyms": ["Propose", "Suggest"],
+    "antonyms": ["Refuse"],
+    "level": "A2",
+    "topics": ["Friendship", "Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-opportunity",
+    "word": "Opportunity",
+    "partOfSpeech": ["noun"],
+    "meanings": ["Fırsat"],
+    "definition": "A chance to do something.",
+    "examples": [
+      {
+        "sentence": "This exchange program is a great opportunity.",
+        "translation": "Bu değişim programı harika bir fırsat."
+      }
+    ],
+    "synonyms": ["Chance", "Occasion"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Education", "Personal Development"],
+    "source": ""
+  },
+  {
+    "id": "word-pain",
+    "word": "Pain",
+    "partOfSpeech": ["noun"],
+    "meanings": ["Ağrı", "Acı"],
+    "definition": "An unpleasant feeling in your body when you are hurt.",
+    "examples": [
+      {
+        "sentence": "He felt a sharp pain in his knee.",
+        "translation": "Dizinde keskin bir ağrı hissetti."
+      }
+    ],
+    "synonyms": ["Ache", "Hurt"],
+    "antonyms": [],
+    "level": "A2",
+    "topics": ["Health", "Sports"],
+    "source": ""
+  },
+  {
+    "id": "word-participate",
+    "word": "Participate",
+    "partOfSpeech": ["verb"],
+    "meanings": ["Katılmak"],
+    "definition": "To take part in an activity.",
+    "examples": [
+      {
+        "sentence": "Everyone should participate in class discussions.",
+        "translation": "Herkes sınıf tartışmalarına katılmalı."
+      }
+    ],
+    "synonyms": ["Join", "Take part"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Education", "Sports"],
+    "source": ""
+  },
+  {
+    "id": "word-patient",
+    "word": "Patient",
+    "partOfSpeech": ["adjective", "noun"],
+    "meanings": ["Sabırlı", "Hasta"],
+    "definition": "Able to wait calmly; also a person receiving medical care.",
+    "examples": [
+      {
+        "sentence": "Be patient; learning takes time.",
+        "translation": "Sabırlı ol; öğrenmek zaman alır."
+      }
+    ],
+    "synonyms": ["Tolerant", "Calm"],
+    "antonyms": ["Impatient"],
+    "level": "A2",
+    "topics": ["Health", "Personal Development"],
+    "source": ""
+  },
+  {
+    "id": "word-peace",
+    "word": "Peace",
+    "partOfSpeech": ["noun"],
+    "meanings": ["Barış", "Huzur"],
+    "definition": "A time without war or noise.",
+    "examples": [
+      {
+        "sentence": "Everyone wants to live in peace.",
+        "translation": "Herkes barış içinde yaşamak ister."
+      }
+    ],
+    "synonyms": ["Harmony", "Calm"],
+    "antonyms": ["War"],
+    "level": "A2",
+    "topics": ["Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-perform",
+    "word": "Perform",
+    "partOfSpeech": ["verb"],
+    "meanings": ["Sergilemek", "Sahne almak"],
+    "definition": "To do something in front of people, like singing or acting.",
+    "examples": [
+      {
+        "sentence": "The choir will perform at the school festival.",
+        "translation": "Koro okul festivalinde sahne alacak."
+      }
+    ],
+    "synonyms": ["Present", "Act"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Education", "Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-quality",
+    "word": "Quality",
+    "partOfSpeech": ["noun", "adjective"],
+    "meanings": ["Kalite", "Nitelik"],
+    "definition": "How good or bad something is.",
+    "examples": [
+      {
+        "sentence": "This brand is famous for its high quality.",
+        "translation": "Bu marka yüksek kalitesiyle ünlüdür."
+      }
+    ],
+    "synonyms": ["Standard", "Excellence"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-rare",
+    "word": "Rare",
+    "partOfSpeech": ["adjective"],
+    "meanings": ["Nadir"],
+    "definition": "Not common or usual.",
+    "examples": [
+      {
+        "sentence": "Snow is rare in Antalya.",
+        "translation": "Antalya'da kar nadirdir."
+      }
+    ],
+    "synonyms": ["Uncommon", "Scarce"],
+    "antonyms": ["Common"],
+    "level": "B1",
+    "topics": ["Environment", "Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-realize",
+    "word": "Realize",
+    "partOfSpeech": ["verb"],
+    "meanings": ["Fark etmek", "Anlamak"],
+    "definition": "To understand something suddenly.",
+    "examples": [
+      {
+        "sentence": "I realized my mistake after the exam.",
+        "translation": "Hatamı sınavdan sonra fark ettim."
+      }
+    ],
+    "synonyms": ["Understand", "Notice"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Education", "Personal Development"],
+    "source": ""
+  },
+  {
+    "id": "word-receive",
+    "word": "Receive",
+    "partOfSpeech": ["verb"],
+    "meanings": ["Almak"],
+    "definition": "To get something given to you.",
+    "examples": [
+      {
+        "sentence": "She received a letter from her pen pal.",
+        "translation": "Mektup arkadaşından bir mektup aldı."
+      }
+    ],
+    "synonyms": ["Get", "Obtain"],
+    "antonyms": ["Send", "Give"],
+    "level": "A2",
+    "topics": ["Daily Life", "Friendship"],
+    "source": ""
+  },
+  {
+    "id": "word-reduce",
+    "word": "Reduce",
+    "partOfSpeech": ["verb"],
+    "meanings": ["Azaltmak"],
+    "definition": "To make something smaller or less.",
+    "examples": [
+      {
+        "sentence": "We should reduce plastic use to protect nature.",
+        "translation": "Doğayı korumak için plastik kullanımını azaltmalıyız."
+      }
+    ],
+    "synonyms": ["Decrease", "Lessen"],
+    "antonyms": ["Increase"],
+    "level": "B1",
+    "topics": ["Environment", "Health"],
+    "source": ""
+  },
+  {
+    "id": "word-refuse",
+    "word": "Refuse",
+    "partOfSpeech": ["verb"],
+    "meanings": ["Reddetmek"],
+    "definition": "To say no to something.",
+    "examples": [
+      {
+        "sentence": "He refused the offer politely.",
+        "translation": "Teklifi kibarca reddetti."
+      }
+    ],
+    "synonyms": ["Decline", "Reject"],
+    "antonyms": ["Accept"],
+    "level": "B1",
+    "topics": ["Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-research",
+    "word": "Research",
+    "partOfSpeech": ["noun", "verb"],
+    "meanings": ["Araştırma", "Araştırmak"],
+    "definition": "Careful study to learn new facts.",
+    "examples": [
+      {
+        "sentence": "Scientists do research on clean energy.",
+        "translation": "Bilim insanları temiz enerji üzerine araştırma yapıyor."
+      }
+    ],
+    "synonyms": ["Study", "Investigation"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Science", "Education"],
+    "source": ""
+  },
+  {
+    "id": "word-responsibility",
+    "word": "Responsibility",
+    "partOfSpeech": ["noun"],
+    "meanings": ["Sorumluluk"],
+    "definition": "Something you must do as part of your duty.",
+    "examples": [
+      {
+        "sentence": "Feeding the cat is my responsibility.",
+        "translation": "Kediyi beslemek benim sorumluluğum."
+      }
+    ],
+    "synonyms": ["Duty", "Obligation"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Daily Life", "Personal Development"],
+    "source": ""
+  },
+  {
+    "id": "word-save",
+    "word": "Save",
+    "partOfSpeech": ["verb"],
+    "meanings": ["Kurtarmak", "Biriktirmek"],
+    "definition": "To keep someone safe or keep money for later.",
+    "examples": [
+      {
+        "sentence": "Seatbelts save lives every day.",
+        "translation": "Emniyet kemerleri her gün hayat kurtarır."
+      }
+    ],
+    "synonyms": ["Rescue", "Preserve"],
+    "antonyms": ["Waste"],
+    "level": "A2",
+    "topics": ["Health", "Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-secret",
+    "word": "Secret",
+    "partOfSpeech": ["noun", "adjective"],
+    "meanings": ["Sır", "Gizli"],
+    "definition": "Something you do not tell others.",
+    "examples": [
+      {
+        "sentence": "Can you keep a secret?",
+        "translation": "Sır tutabilir misin?"
+      }
+    ],
+    "synonyms": ["Mystery"],
+    "antonyms": [],
+    "level": "A2",
+    "topics": ["Friendship", "Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-skill",
+    "word": "Skill",
+    "partOfSpeech": ["noun"],
+    "meanings": ["Beceri", "Yetenek"],
+    "definition": "The ability to do something well.",
+    "examples": [
+      {
+        "sentence": "Communication is an important life skill.",
+        "translation": "İletişim önemli bir yaşam becerisidir."
+      }
+    ],
+    "synonyms": ["Ability", "Talent"],
+    "antonyms": [],
+    "level": "A2",
+    "topics": ["Education", "Personal Development"],
+    "source": ""
+  },
+  {
+    "id": "word-society",
+    "word": "Society",
+    "partOfSpeech": ["noun"],
+    "meanings": ["Toplum"],
+    "definition": "People living together in a community.",
+    "examples": [
+      {
+        "sentence": "Schools prepare young people for society.",
+        "translation": "Okullar gençleri topluma hazırlar."
+      }
+    ],
+    "synonyms": ["Community"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Education"],
+    "source": ""
+  },
+  {
+    "id": "word-solve",
+    "word": "Solve",
+    "partOfSpeech": ["verb"],
+    "meanings": ["Çözmek"],
+    "definition": "To find an answer to a problem.",
+    "examples": [
+      {
+        "sentence": "Try to solve the puzzle by yourself.",
+        "translation": "Bulmacayı kendin çözmeye çalış."
+      }
+    ],
+    "synonyms": ["Resolve", "Fix"],
+    "antonyms": [],
+    "level": "A2",
+    "topics": ["Education"],
+    "source": ""
+  },
+  {
+    "id": "word-suggest",
+    "word": "Suggest",
+    "partOfSpeech": ["verb"],
+    "meanings": ["Önermek"],
+    "definition": "To offer an idea for someone to consider.",
+    "examples": [
+      {
+        "sentence": "I suggest studying a little every day.",
+        "translation": "Her gün biraz çalışmanı öneririm."
+      }
+    ],
+    "synonyms": ["Recommend", "Propose"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Education", "Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-support",
+    "word": "Support",
+    "partOfSpeech": ["verb", "noun"],
+    "meanings": ["Desteklemek", "Destek"],
+    "definition": "To help someone or something succeed.",
+    "examples": [
+      {
+        "sentence": "Our fans always support our team.",
+        "translation": "Taraftarlarımız takımımızı her zaman destekler."
+      }
+    ],
+    "synonyms": ["Help", "Back"],
+    "antonyms": ["Oppose"],
+    "level": "B1",
+    "topics": ["Sports", "Friendship"],
+    "source": ""
+  },
+  {
+    "id": "word-surprise",
+    "word": "Surprise",
+    "partOfSpeech": ["noun", "verb"],
+    "meanings": ["Sürpriz", "Şaşırtmak"],
+    "definition": "Something unexpected.",
+    "examples": [
+      {
+        "sentence": "The party was a complete surprise for him.",
+        "translation": "Parti onun için tam bir sürprizdi."
+      }
+    ],
+    "synonyms": ["Shock", "Wonder"],
+    "antonyms": [],
+    "level": "A2",
+    "topics": ["Friendship", "Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-talent",
+    "word": "Talent",
+    "partOfSpeech": ["noun"],
+    "meanings": ["Yetenek"],
+    "definition": "A natural ability to do something well.",
+    "examples": [
+      {
+        "sentence": "She has a real talent for music.",
+        "translation": "Müziğe karşı gerçek bir yeteneği var."
+      }
+    ],
+    "synonyms": ["Gift", "Skill"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Education", "Personal Development"],
+    "source": ""
+  },
+  {
+    "id": "word-task",
+    "word": "Task",
+    "partOfSpeech": ["noun"],
+    "meanings": ["Görev", "İş"],
+    "definition": "A piece of work you have to do.",
+    "examples": [
+      {
+        "sentence": "Our first task is to read the text.",
+        "translation": "İlk görevimiz metni okumak."
+      }
+    ],
+    "synonyms": ["Job", "Duty"],
+    "antonyms": [],
+    "level": "A2",
+    "topics": ["Education", "Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-team",
+    "word": "Team",
+    "partOfSpeech": ["noun"],
+    "meanings": ["Takım"],
+    "definition": "A group of people working together.",
+    "examples": [
+      {
+        "sentence": "Our volleyball team won the tournament.",
+        "translation": "Voleybol takımımız turnuvayı kazandı."
+      }
+    ],
+    "synonyms": ["Group", "Squad"],
+    "antonyms": [],
+    "level": "A2",
+    "topics": ["Sports", "Education"],
+    "source": ""
+  },
+  {
+    "id": "word-topic",
+    "word": "Topic",
+    "partOfSpeech": ["noun"],
+    "meanings": ["Konu", "Başlık"],
+    "definition": "The subject of a discussion or text.",
+    "examples": [
+      {
+        "sentence": "Today's topic is healthy eating.",
+        "translation": "Bugünkü konumuz sağlıklı beslenme."
+      }
+    ],
+    "synonyms": ["Subject", "Theme"],
+    "antonyms": [],
+    "level": "A2",
+    "topics": ["Education"],
+    "source": ""
+  },
+  {
+    "id": "word-unique",
+    "word": "Unique",
+    "partOfSpeech": ["adjective"],
+    "meanings": ["Eşsiz", "Benzersiz"],
+    "definition": "The only one of its kind.",
+    "examples": [
+      {
+        "sentence": "Every snowflake has a unique shape.",
+        "translation": "Her kar tanesinin eşsiz bir şekli vardır."
+      }
+    ],
+    "synonyms": ["Special", "Rare"],
+    "antonyms": ["Common"],
+    "level": "B1",
+    "topics": ["Science", "Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-unite",
+    "word": "Unite",
+    "partOfSpeech": ["verb"],
+    "meanings": ["Birleştirmek", "Birleşmek"],
+    "definition": "To join together for a common purpose.",
+    "examples": [
+      {
+        "sentence": "Sports unite people from different cultures.",
+        "translation": "Spor, farklı kültürlerden insanları birleştirir."
+      }
+    ],
+    "synonyms": ["Join", "Combine"],
+    "antonyms": ["Divide"],
+    "level": "B2",
+    "topics": ["Sports", "Friendship"],
+    "source": ""
+  },
+  {
+    "id": "word-useful",
+    "word": "Useful",
+    "partOfSpeech": ["adjective"],
+    "meanings": ["Yararlı", "Faydalı"],
+    "definition": "Helpful for doing something.",
+    "examples": [
+      {
+        "sentence": "Dictionaries are very useful for learners.",
+        "translation": "Sözlükler öğrenenler için çok yararlıdır."
+      }
+    ],
+    "synonyms": ["Helpful", "Practical"],
+    "antonyms": ["Useless"],
+    "level": "A2",
+    "topics": ["Education", "Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-valuable",
+    "word": "Valuable",
+    "partOfSpeech": ["adjective"],
+    "meanings": ["Değerli"],
+    "definition": "Worth a lot of money or very important.",
+    "examples": [
+      {
+        "sentence": "Time is our most valuable resource.",
+        "translation": "Zaman en değerli kaynağımızdır."
+      }
+    ],
+    "synonyms": ["Precious", "Worthwhile"],
+    "antonyms": ["Worthless"],
+    "level": "B1",
+    "topics": ["Daily Life", "Personal Development"],
+    "source": ""
+  },
+  {
+    "id": "word-various",
+    "word": "Various",
+    "partOfSpeech": ["adjective"],
+    "meanings": ["Çeşitli"],
+    "definition": "Of different kinds.",
+    "examples": [
+      {
+        "sentence": "The festival offers various activities.",
+        "translation": "Festival çeşitli etkinlikler sunuyor."
+      }
+    ],
+    "synonyms": ["Different", "Diverse"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Daily Life", "Tourism"],
+    "source": ""
+  },
+  {
+    "id": "word-volunteer",
+    "word": "Volunteer",
+    "partOfSpeech": ["noun", "verb"],
+    "meanings": ["Gönüllü", "Gönüllü olmak"],
+    "definition": "A person who works without pay to help others.",
+    "examples": [
+      {
+        "sentence": "She volunteers at an animal shelter.",
+        "translation": "Bir hayvan barınağında gönüllü çalışıyor."
+      }
+    ],
+    "synonyms": ["Helper"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Daily Life", "Personal Development"],
+    "source": ""
+  },
+  {
+    "id": "word-waste",
+    "word": "Waste",
+    "partOfSpeech": ["noun", "verb"],
+    "meanings": ["İsraf, atık", "İsraf etmek"],
+    "definition": "Using more of something than needed.",
+    "examples": [
+      {
+        "sentence": "Don't waste water while brushing your teeth.",
+        "translation": "Dişlerini fırçalarken suyu israf etme."
+      }
+    ],
+    "synonyms": ["Squander"],
+    "antonyms": ["Save"],
+    "level": "A2",
+    "topics": ["Environment", "Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-wealth",
+    "word": "Wealth",
+    "partOfSpeech": ["noun"],
+    "meanings": ["Zenginlik", "Servet"],
+    "definition": "A large amount of money or valuable things.",
+    "examples": [
+      {
+        "sentence": "Health is more important than wealth.",
+        "translation": "Sağlık zenginlikten daha önemlidir."
+      }
+    ],
+    "synonyms": ["Riches", "Fortune"],
+    "antonyms": ["Poverty"],
+    "level": "B2",
+    "topics": ["Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-weather",
+    "word": "Weather",
+    "partOfSpeech": ["noun"],
+    "meanings": ["Hava durumu"],
+    "definition": "The condition of the air outside, like rain or sun.",
+    "examples": [
+      {
+        "sentence": "The weather is perfect for a picnic.",
+        "translation": "Hava piknik için mükemmel."
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "level": "A2",
+    "topics": ["Environment", "Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-whole",
+    "word": "Whole",
+    "partOfSpeech": ["adjective"],
+    "meanings": ["Bütün", "Tüm"],
+    "definition": "Complete; all of something.",
+    "examples": [
+      {
+        "sentence": "She read the whole book in two days.",
+        "translation": "Kitabın tamamını iki günde okudu."
+      }
+    ],
+    "synonyms": ["Entire", "Complete"],
+    "antonyms": ["Partial"],
+    "level": "A2",
+    "topics": ["Daily Life"],
+    "source": ""
+  },
+  {
+    "id": "word-youth",
+    "word": "Youth",
+    "partOfSpeech": ["noun"],
+    "meanings": ["Gençlik"],
+    "definition": "The time of life when you are young.",
+    "examples": [
+      {
+        "sentence": "Sports play a big role in the lives of the youth.",
+        "translation": "Spor, gençlerin hayatında büyük rol oynar."
+      }
+    ],
+    "synonyms": ["Young people"],
+    "antonyms": [],
+    "level": "B1",
+    "topics": ["Sports", "Education"],
+    "source": ""
+  }
+]

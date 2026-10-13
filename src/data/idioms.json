@@ -1,0 +1,542 @@
+[
+  {
+    "id": "idiom-a-piece-of-cake",
+    "expression": "A piece of cake",
+    "meaningTr": "Çok kolay bir şey.",
+    "definitionEn": "Something very easy to do.",
+    "examples": [
+      {
+        "sentence": "The English test was a piece of cake.",
+        "translation": "İngilizce sınavı çok kolaydı."
+      }
+    ],
+    "usageContext": "Exams and easy tasks.",
+    "level": "A2",
+    "source": ""
+  },
+  {
+    "id": "idiom-back-to-square-one",
+    "expression": "Back to square one",
+    "meaningTr": "Başa dönmek, en baştan başlamak.",
+    "definitionEn": "Having to start again from the beginning after a failure.",
+    "examples": [
+      {
+        "sentence": "Our plan failed, so we are back to square one.",
+        "translation": "Planımız başarısız oldu, yani başa döndük."
+      }
+    ],
+    "usageContext": "Plans and projects that fail.",
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "idiom-barking-up-the-wrong-tree",
+    "expression": "Barking up the wrong tree",
+    "meaningTr": "Yanlış kişiden şüphelenmek, yanlış iz sürmek.",
+    "definitionEn": "Blaming the wrong person or following a wrong idea.",
+    "examples": [
+      {
+        "sentence": "If you think I broke the window, you are barking up the wrong tree.",
+        "translation": "Pencereyi benim kırdığımı düşünüyorsan yanlış kişiden şüpheleniyorsun."
+      }
+    ],
+    "usageContext": "Arguments and accusations.",
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "idiom-beat-around-the-bush",
+    "expression": "Beat around the bush",
+    "meaningTr": "Lafı dolandırmak, asıl konuya girmemek.",
+    "definitionEn": "Avoiding the main point in a conversation.",
+    "examples": [
+      {
+        "sentence": "Stop beating around the bush and tell me the truth.",
+        "translation": "Lafı dolandırmayı bırak ve gerçeği söyle."
+      }
+    ],
+    "usageContext": "Conversations and explanations.",
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "idiom-break-a-leg",
+    "expression": "Break a leg",
+    "meaningTr": "Bol şans (özellikle sahne öncesi söylenir).",
+    "definitionEn": "A way to wish someone good luck, especially before a performance.",
+    "examples": [
+      {
+        "sentence": "You have a concert tonight? Break a leg!",
+        "translation": "Bu akşam konserin mi var? Bol şans!"
+      }
+    ],
+    "usageContext": "Performances, exams and competitions.",
+    "level": "A2",
+    "source": ""
+  },
+  {
+    "id": "idiom-break-the-ice",
+    "expression": "Break the ice",
+    "meaningTr": "Ortamı yumuşatmak, sohbeti başlatmak.",
+    "definitionEn": "To make people feel more comfortable and encourage conversation in a social situation.",
+    "examples": [
+      {
+        "sentence": "He told a funny story to break the ice.",
+        "translation": "Ortamı yumuşatmak için komik bir hikâye anlattı."
+      }
+    ],
+    "usageContext": "Social situations and first meetings.",
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "idiom-call-it-a-day",
+    "expression": "Call it a day",
+    "meaningTr": "O günlüğüne işi bırakmak.",
+    "definitionEn": "To stop working for the rest of the day.",
+    "examples": [
+      {
+        "sentence": "We finished half of the project, so let's call it a day.",
+        "translation": "Projenin yarısını bitirdik, o yüzden bugünlük bırakalım."
+      }
+    ],
+    "usageContext": "Work and study.",
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "idiom-cost-an-arm-and-a-leg",
+    "expression": "Cost an arm and a leg",
+    "meaningTr": "Çok pahalı olmak.",
+    "definitionEn": "To be very expensive.",
+    "examples": [
+      {
+        "sentence": "The new phone costs an arm and a leg.",
+        "translation": "Yeni telefon çok pahalı."
+      }
+    ],
+    "usageContext": "Shopping and prices.",
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "idiom-cut-corners",
+    "expression": "Cut corners",
+    "meaningTr": "İşten kaçmak, işi ucuza getirmek.",
+    "definitionEn": "To do something cheaply or quickly, usually badly.",
+    "examples": [
+      {
+        "sentence": "Don't cut corners while studying; learn everything well.",
+        "translation": "Çalışırken işten kaçma; her şeyi iyi öğren."
+      }
+    ],
+    "usageContext": "Work and study.",
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "idiom-down-to-earth",
+    "expression": "Down to earth",
+    "meaningTr": "Aklı başında, mütevazı, gerçekçi.",
+    "definitionEn": "Practical and realistic; not arrogant.",
+    "examples": [
+      {
+        "sentence": "Despite her fame, she is very down to earth.",
+        "translation": "Şöhretine rağmen çok mütevazı."
+      }
+    ],
+    "usageContext": "Describing people's character.",
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "idiom-face-the-music",
+    "expression": "Face the music",
+    "meaningTr": "Yaptıklarının sonuçlarıyla yüzleşmek.",
+    "definitionEn": "To accept criticism or punishment for something you did.",
+    "examples": [
+      {
+        "sentence": "He broke the window, so now he must face the music.",
+        "translation": "Pencereyi kırdı, şimdi sonuçlarla yüzleşmeli."
+      }
+    ],
+    "usageContext": "Responsibility and mistakes.",
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "idiom-get-cold-feet",
+    "expression": "Get cold feet",
+    "meaningTr": "Son anda korkup vazgeçmek.",
+    "definitionEn": "To suddenly become afraid of doing something you planned.",
+    "examples": [
+      {
+        "sentence": "She got cold feet before her speech.",
+        "translation": "Konuşmasından önce son anda korktu."
+      }
+    ],
+    "usageContext": "Fears and difficult decisions.",
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "idiom-give-the-cold-shoulder",
+    "expression": "Give someone the cold shoulder",
+    "meaningTr": "Birine soğuk davranmak, görmezden gelmek.",
+    "definitionEn": "To ignore someone deliberately.",
+    "examples": [
+      {
+        "sentence": "After the argument, he gave me the cold shoulder.",
+        "translation": "Tartışmadan sonra bana soğuk davrandı."
+      }
+    ],
+    "usageContext": "Relationships and arguments.",
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "idiom-go-the-extra-mile",
+    "expression": "Go the extra mile",
+    "meaningTr": "Fazladan çaba göstermek.",
+    "definitionEn": "To do more than what is expected.",
+    "examples": [
+      {
+        "sentence": "She went the extra mile to help her classmates.",
+        "translation": "Sınıf arkadaşlarına yardım etmek için fazladan çaba gösterdi."
+      }
+    ],
+    "usageContext": "Work, study and kindness.",
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "idiom-hit-the-books",
+    "expression": "Hit the books",
+    "meaningTr": "Ders çalışmaya koyulmak.",
+    "definitionEn": "To start studying hard.",
+    "examples": [
+      {
+        "sentence": "Exams are next week, so I must hit the books.",
+        "translation": "Sınavlar haftaya, o yüzden ders çalışmaya koyulmalıyım."
+      }
+    ],
+    "usageContext": "Study and exam periods.",
+    "level": "A2",
+    "source": ""
+  },
+  {
+    "id": "idiom-hit-the-nail-on-the-head",
+    "expression": "Hit the nail on the head",
+    "meaningTr": "Tam isabet ettirmek, tam doğruyu söylemek.",
+    "definitionEn": "To say exactly the right thing.",
+    "examples": [
+      {
+        "sentence": "You hit the nail on the head with that answer.",
+        "translation": "Bu cevapla tam isabet ettirdin."
+      }
+    ],
+    "usageContext": "Discussions and answers.",
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "idiom-in-hot-water",
+    "expression": "In hot water",
+    "meaningTr": "Başı dertte olmak.",
+    "definitionEn": "In trouble because of something you did.",
+    "examples": [
+      {
+        "sentence": "He forgot his homework and now he is in hot water.",
+        "translation": "Ödevini unuttu ve şimdi başı dertte."
+      }
+    ],
+    "usageContext": "Problems and trouble.",
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "idiom-jump-on-the-bandwagon",
+    "expression": "Jump on the bandwagon",
+    "meaningTr": "Modaya uymak, popüler olana katılmak.",
+    "definitionEn": "To join something because it is popular.",
+    "examples": [
+      {
+        "sentence": "Many students jumped on the bandwagon and started a podcast.",
+        "translation": "Birçok öğrenci modaya uyup podcast başlattı."
+      }
+    ],
+    "usageContext": "Trends and popular activities.",
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "idiom-keep-an-eye-on",
+    "expression": "Keep an eye on",
+    "meaningTr": "Göz kulak olmak, dikkatle izlemek.",
+    "definitionEn": "To watch something carefully.",
+    "examples": [
+      {
+        "sentence": "Can you keep an eye on my bag?",
+        "translation": "Çantama göz kulak olabilir misin?"
+      }
+    ],
+    "usageContext": "Everyday requests.",
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "idiom-let-the-cat-out-of-the-bag",
+    "expression": "Let the cat out of the bag",
+    "meaningTr": "Ağzından kaçırmak, sırrı açığa vurmak.",
+    "definitionEn": "To reveal a secret by mistake.",
+    "examples": [
+      {
+        "sentence": "He let the cat out of the bag about the surprise party.",
+        "translation": "Sürpriz partiyle ilgili sırrı ağzından kaçırdı."
+      }
+    ],
+    "usageContext": "Secrets and surprises.",
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "idiom-miss-the-boat",
+    "expression": "Miss the boat",
+    "meaningTr": "Fırsatı kaçırmak.",
+    "definitionEn": "To miss an opportunity.",
+    "examples": [
+      {
+        "sentence": "Apply now or you will miss the boat.",
+        "translation": "Hemen başvur, yoksa fırsatı kaçırırsın."
+      }
+    ],
+    "usageContext": "Opportunities and deadlines.",
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "idiom-on-cloud-nine",
+    "expression": "On cloud nine",
+    "meaningTr": "Çok mutlu olmak, sevinçten havalara uçmak.",
+    "definitionEn": "Extremely happy.",
+    "examples": [
+      {
+        "sentence": "She was on cloud nine after getting the scholarship.",
+        "translation": "Bursu kazandıktan sonra çok mutluydu."
+      }
+    ],
+    "usageContext": "Feelings and good news.",
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "idiom-once-in-a-blue-moon",
+    "expression": "Once in a blue moon",
+    "meaningTr": "Çok nadiren, kırk yılda bir.",
+    "definitionEn": "Very rarely.",
+    "examples": [
+      {
+        "sentence": "We eat fast food once in a blue moon.",
+        "translation": "Çok nadiren fast food yeriz."
+      }
+    ],
+    "usageContext": "Habits and frequency.",
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "idiom-out-of-the-blue",
+    "expression": "Out of the blue",
+    "meaningTr": "Hiç beklenmedik bir anda.",
+    "definitionEn": "Suddenly and unexpectedly.",
+    "examples": [
+      {
+        "sentence": "Out of the blue, an old friend called me.",
+        "translation": "Hiç beklenmedik bir anda eski bir arkadaşım aradı."
+      }
+    ],
+    "usageContext": "Surprises and sudden events.",
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "idiom-over-the-moon",
+    "expression": "Over the moon",
+    "meaningTr": "Çok sevinçli olmak.",
+    "definitionEn": "Very happy and excited about something.",
+    "examples": [
+      {
+        "sentence": "He was over the moon about his exam results.",
+        "translation": "Sınav sonuçları için çok sevinçliydi."
+      }
+    ],
+    "usageContext": "Feelings and good news.",
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "idiom-pull-someones-leg",
+    "expression": "Pull someone's leg",
+    "meaningTr": "Birini işletmek, şaka yapmak.",
+    "definitionEn": "To joke with someone in a friendly way.",
+    "examples": [
+      {
+        "sentence": "Don't worry, I was just pulling your leg.",
+        "translation": "Merak etme, sadece şaka yapıyordum."
+      }
+    ],
+    "usageContext": "Jokes among friends.",
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "idiom-rain-cats-and-dogs",
+    "expression": "Rain cats and dogs",
+    "meaningTr": "Bardaktan boşanırcasına yağmur yağmak.",
+    "definitionEn": "To rain very heavily.",
+    "examples": [
+      {
+        "sentence": "Take an umbrella; it is raining cats and dogs.",
+        "translation": "Şemsiye al; bardaktan boşanırcasına yağmur yağıyor."
+      }
+    ],
+    "usageContext": "Weather.",
+    "level": "A2",
+    "source": ""
+  },
+  {
+    "id": "idiom-see-eye-to-eye",
+    "expression": "See eye to eye",
+    "meaningTr": "Aynı fikirde olmak.",
+    "definitionEn": "To agree with someone on something.",
+    "examples": [
+      {
+        "sentence": "We don't always see eye to eye, but we are good friends.",
+        "translation": "Her zaman aynı fikirde değiliz ama iyi arkadaşız."
+      }
+    ],
+    "usageContext": "Agreements and friendships.",
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "idiom-sit-on-the-fence",
+    "expression": "Sit on the fence",
+    "meaningTr": "Kararsız kalmak, taraf tutmamak.",
+    "definitionEn": "Avoiding making a decision.",
+    "examples": [
+      {
+        "sentence": "You can't sit on the fence forever; choose a team.",
+        "translation": "Sonsuza kadar kararsız kalamazsın; bir takım seç."
+      }
+    ],
+    "usageContext": "Decisions and choices.",
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "idiom-speak-of-the-devil",
+    "expression": "Speak of the devil",
+    "meaningTr": "İyi insan lafının üstüne gelir.",
+    "definitionEn": "Said when a person you were just talking about appears.",
+    "examples": [
+      {
+        "sentence": "Speak of the devil! We were just talking about you.",
+        "translation": "İyi insan lafının üstüne gelirmiş! Tam da senden bahsediyorduk."
+      }
+    ],
+    "usageContext": "Casual conversations.",
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "idiom-spill-the-beans",
+    "expression": "Spill the beans",
+    "meaningTr": "Sırrı açıklamak, baklayı ağzından çıkarmak.",
+    "definitionEn": "To reveal a secret.",
+    "examples": [
+      {
+        "sentence": "Come on, spill the beans! What happened?",
+        "translation": "Hadi, anlat! Ne oldu?"
+      }
+    ],
+    "usageContext": "Secrets among friends.",
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "idiom-take-a-rain-check",
+    "expression": "Take a rain check",
+    "meaningTr": "Başka bir zamana ertelemek.",
+    "definitionEn": "To refuse an invitation now but ask to do it later.",
+    "examples": [
+      {
+        "sentence": "I can't come today, but can I take a rain check?",
+        "translation": "Bugün gelemem ama başka bir zamana ertelesek olur mu?"
+      }
+    ],
+    "usageContext": "Invitations and plans.",
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "idiom-the-ball-is-in-your-court",
+    "expression": "The ball is in your court",
+    "meaningTr": "Sıra sende, top sende.",
+    "definitionEn": "It is your turn to take action.",
+    "examples": [
+      {
+        "sentence": "I sent the invitation; now the ball is in your court.",
+        "translation": "Davetiyeyi gönderdim; şimdi sıra sende."
+      }
+    ],
+    "usageContext": "Decisions and responsibilities.",
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "idiom-through-thick-and-thin",
+    "expression": "Through thick and thin",
+    "meaningTr": "İyi günde kötü günde.",
+    "definitionEn": "Supporting someone in good times and bad times.",
+    "examples": [
+      {
+        "sentence": "True friends stay together through thick and thin.",
+        "translation": "Gerçek arkadaşlar iyi günde kötü günde birlikte kalır."
+      }
+    ],
+    "usageContext": "Friendship and loyalty.",
+    "level": "B2",
+    "source": ""
+  },
+  {
+    "id": "idiom-under-the-weather",
+    "expression": "Under the weather",
+    "meaningTr": "Kendini iyi hissetmemek, hafif hasta olmak.",
+    "definitionEn": "Feeling slightly sick or unwell.",
+    "examples": [
+      {
+        "sentence": "She stayed home because she felt under the weather.",
+        "translation": "Kendini iyi hissetmediği için evde kaldı."
+      }
+    ],
+    "usageContext": "Health and daily life.",
+    "level": "B1",
+    "source": ""
+  },
+  {
+    "id": "idiom-when-pigs-fly",
+    "expression": "When pigs fly",
+    "meaningTr": "Asla olmayacak bir şey (balık kavağa çıkınca).",
+    "definitionEn": "Something that will never happen.",
+    "examples": [
+      {
+        "sentence": "He will clean his room when pigs fly.",
+        "translation": "Odasını balık kavağa çıkınca temizler."
+      }
+    ],
+    "usageContext": "Jokes and impossible promises.",
+    "level": "B2",
+    "source": ""
+  }
+]
